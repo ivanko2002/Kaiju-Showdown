@@ -14,9 +14,9 @@ UID:
 
 Game descriptions:
 
-Background: A text-based RPG game. In the future, Kaiju, monsters from another world are invading our world. Jagers which are gigantic robots are created to fight against them.
+A text-based RPG game. In the future, Kaiju, monsters from another world are invading our world. Jagers which are gigantic robots are created to fight against them.
 
-In this battle game, players will either control a Kaiju or a Jager and fight against each other. Each character will have different health points(HP), experience points(XP) and abilities.
+In this game, players will either control a Kaiju or a Jager and fight against each other. Each character will have different health points(HP), experience points(XP) and abilities.
 
 Features:
 
@@ -31,7 +31,7 @@ Features:
 - Vector: list of props that the character currently has.
 
 3. Dynamic memory management:
-- After each round of battle, the props randomly assigned to players will be stored into the vector.
+- After each round of battle, some props will be randomly generated to players and will be stored into the vector.
 - When the props are used during the showdown, the vector will pop them out. 
 - The vector will limit the number and type of props the characters store (if a metal arm is generated to a Kaiju, it will be popped out automatically). 
 - The players can check the props they currently have by returning the vector.
