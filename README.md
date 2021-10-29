@@ -2,15 +2,7 @@
 
 Group 102
 
-Group members:
 
-NAME: Ko Man Sing
-
-UID: 3035778216
-
-NAME: 
-
-UID: 
 
 Game descriptions:
 
