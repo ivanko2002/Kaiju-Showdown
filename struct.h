@@ -22,7 +22,7 @@ struct j
     int damage1;
     int damage2;
     int damage3;
-
+    
     };
 
 struct k
@@ -52,8 +52,8 @@ struct Player1
     int ap;
     int xp;
     int dp;
-    string prop;
-
+    prop * bag;
+    
    };
 
 struct Player2
@@ -64,7 +64,7 @@ struct Player2
     int ap;
     int xp;
     int dp;
-    string prop;
+    prop * bag;
 
    };
 
