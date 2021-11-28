@@ -7,7 +7,7 @@ using namespace std;
 
 void choose_jaegar(vector<j> &jaegar){
 
-	jaegar GD;
+	j GD;
 	GD.name = "Gipsy Danger";
 	GD.hp = 1500;
 	GD.ap = 50;
@@ -23,7 +23,7 @@ void choose_jaegar(vector<j> &jaegar){
 	GD.xp3 = 150;
 	GD.damage3 = 300;
 
-	jaegar SE;
+	j SE;
 	SE.name = "Striker Eureka";
 	SE.hp = 1200;
 	SE.ap = 45;
@@ -39,7 +39,7 @@ void choose_jaegar(vector<j> &jaegar){
 	SE.xp3 = 200;
 	SE.damage3 = 500;
 	
-	jaegar CT;
+	j CT;
 	CT.name = "Crimson Typhoon";
 	CT.hp = 1000;
 	CT.ap = 50;
@@ -55,7 +55,7 @@ void choose_jaegar(vector<j> &jaegar){
 	CT.xp3 = 300;
 	CT.damage3 = 800;
 
-	jaegar MA;
+	j MA;
 	MA.name = "Mammoth Apostle";
 	MA.hp = 1150;
 	MA.ap = 40;
@@ -71,7 +71,7 @@ void choose_jaegar(vector<j> &jaegar){
 	MA.xp2 = 285;
 	MA.damage2 = 755;
 
-	jaegar HH;
+	j HH;
 	HH.name = "Hydra Hyperion";
 	HH.hp = 950;
 	HH.ap = 100;
