@@ -12,9 +12,9 @@ string battlefield(int n, Player1 &j, Player2 &k){
 		cout << "The battlefield is on Earth" << endl;
 		cout << "Jaegar's HP + 40, XP + 40" << endl;
 		cout << "Kaiju's HP + 20, XP +20" <<endl;
-		j.hp += 40
+		j.hp += 40;
 		j.xp += 40;
-		k.hp += 20
+		k.hp += 20;
 		k.xp += 20;
 
 	}
@@ -25,7 +25,7 @@ string battlefield(int n, Player1 &j, Player2 &k){
 		cout << "Kaiju moves much faster than Jaegar in water" << endl;
 		cout << "Kaiju's AP + 50" << endl;
 		cout << "Jaegar's AP - 40" << endl;
-		k.ap += 50
+		k.ap += 50;
 		j.ap -= 40;
 
 		}
