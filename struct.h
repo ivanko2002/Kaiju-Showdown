@@ -73,7 +73,7 @@ struct prop
 {
     string prop_name;
     int quantity;
-    items * next;
+    prop * next;
 };
 
 void jaegar(vector<jaegar> &j);
