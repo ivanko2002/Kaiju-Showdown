@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void jchoice()
+string jchoice()
 {
     int n;
     while (true)
