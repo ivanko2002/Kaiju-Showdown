@@ -83,4 +83,4 @@ void jprops(Player1 &j);
 void kprops(Player2 &k);
 string jchoice();
 string kchoice();
-string battlefield(int n, Player1 &j, Player2 &k);
+void battlefield(int n, Player1 &j, Player2 &k);
