@@ -22,3 +22,6 @@ main.o: main.cpp $(Header)
 	g++ $(Flag) -c $<
 kj: main.o battlefield.o jaegar_choice.o jaegar_data.o jaegar_props.o jaegar_status.o kaiju_choice.o kaiju_data.o kaiju_props.o kaiju_status.o
 	g++ $(Flag) $^ -o $@
+clean:
+	rm -f main.o battlefield.o jaegar_choice.o jaegar_data.o jaegar_props.o jaegar_status.o kaiju_choice.o kaiju_data.o kaiju_props.o kaiju_status.o kj
+.PHONY: clean
