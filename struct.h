@@ -81,6 +81,6 @@ void jstatus(Player1 &j);
 void kstatus(Player2 &k);
 void jprops(Player1 &j);
 void kprops(Player2 &k);
-string jchoice();
-string kchoice();
+void jchoice();
+void kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);

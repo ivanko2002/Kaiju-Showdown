@@ -7,7 +7,7 @@
 
 using namespace std;
 
-string kchoice()
+void kchoice()
 {
     int n;
     while (true)
