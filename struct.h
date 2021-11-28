@@ -6,7 +6,7 @@
 
 using namespace std;
 
-struct jaegar
+struct j
 {
     string name;
     int hp;
@@ -25,7 +25,7 @@ struct jaegar
 
     };
 
-struct kaiju
+struct k
 {
     string name;
     int hp;
@@ -75,8 +75,8 @@ struct prop
     prop * next;
 };
 
-void choose_jaegar(vector<jaegar> &j);
-void choose_kaiju(vector<kaiju> &k);
+void choose_jaegar(vector<j> &jaegar);
+void choose_kaiju(vector<k> &kaiju);
 void jstatus(Player1 &j);
 void kstatus(Player2 &k);
 void jprops(Player1 &j);
