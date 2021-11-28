@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string battlefield(int n, Player1 &j, Player2 &k){
+void battlefield(int n, Player1 &j, Player2 &k){
 
 	if (n==1){
 
