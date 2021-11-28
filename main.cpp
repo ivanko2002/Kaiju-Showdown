@@ -1,7 +1,9 @@
-#include<iostream>
+#include <iostream>
+#include "struct.h"
 using namespace std;
 
 int main(){
+	kchoice();
 	cout<<"Welcome to Kaiju Showdown\n";
 	system("PAUSE");
 	int flag=0;
