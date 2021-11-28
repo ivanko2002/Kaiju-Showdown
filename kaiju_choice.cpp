@@ -34,7 +34,7 @@ string kchoice()
 	cout << endl;
 	cout << endl;
 
-        cout < "Please input a number between 1 to 5: "; 
+        cout << "Please input a number between 1 to 5: "; 
         cin >> n;
 
 	switch (n){
