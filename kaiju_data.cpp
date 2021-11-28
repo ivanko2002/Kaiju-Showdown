@@ -7,7 +7,7 @@ using namespace std;
 
 void choose_kaiju(vector<k> &kaiju){
 
-	kaiju S;
+	k S;
 	S.name = "Slattern";
 	S.hp = 2500;
 	S.ap = 75;
@@ -23,7 +23,7 @@ void choose_kaiju(vector<k> &kaiju){
 	S.xp3 = 150;
 	S.damage3 = 250;
 
-	kaiju O;
+	k O;
 	O.name = "Otachi";
 	O.hp = 2000;
 	O.ap = 50;
@@ -39,7 +39,7 @@ void choose_kaiju(vector<k> &kaiju){
 	O.xp3 = 180;
 	O.damage3 = 300 ;
 	
-	kaiju Sc;
+	k Sc;
 	Sc.name = "Scunner";
 	Sc.hp = 1800;
 	Sc.ap = 60;
@@ -71,7 +71,7 @@ void choose_kaiju(vector<k> &kaiju){
 	Sc.xp3 = 250;
 	Sc.damage3 = 550;
 
-	kaiju A;
+	k A;
 	A.name = "Atticon";
 	A.hp = 1300;
 	A.ap = 30;
