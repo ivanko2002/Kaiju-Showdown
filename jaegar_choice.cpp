@@ -12,9 +12,9 @@ string jchoice()
     int n;
     while (true)
     {
-        cout << "Choose a Jaegar" << endl;
+        cout << "Player 1 choose a Jaegar" << endl;
         cout << "1. Gipsy Danger " << endl;
-	cout << "Characyeristics: Highest health points" << endl;
+	cout << "Characteristics: Highest health points" << endl;
 	cout << endl;
 
         cout << "2. Striker Eureka" << endl;

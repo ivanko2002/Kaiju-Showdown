@@ -12,9 +12,9 @@ string kchoice()
     int n;
     while (true)
     {
-        cout << "Choose a kaiju" << endl;
+        cout << "Player 2 choose a kaiju" << endl;
         cout << "1.Slattern" << endl;
-	cout << "Characyeristics: Highest health points" << endl;
+	cout << "Characteristics: Highest health points" << endl;
 	cout << endl;
 
         cout << "2. Otachi" << endl;
