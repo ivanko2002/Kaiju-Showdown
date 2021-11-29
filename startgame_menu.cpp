@@ -1,4 +1,4 @@
-//This function starts the game and controls the gameflow
+//This function prints the game menu and lets users choose to start a new game or load a game
 
 #include <iostream>
 #include "struct.h"
