@@ -1,5 +1,5 @@
-//Exchange Jeagar's props by xp
-//take user input and return the props to their bag
+//Function for player to exchange props by xp
+//Take number as input and return the corresponding props
        	
 #include <iostream>
 #include <string>

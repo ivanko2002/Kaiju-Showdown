@@ -1,6 +1,5 @@
-// Print props in bag
+// Function that print jaegar's props
 // Take player data as input
-// Relevant prop will be outputted
 
 #include <iostream>
 #include "struct.h"

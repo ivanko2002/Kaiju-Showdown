@@ -1,4 +1,5 @@
-//store data of jaegar
+//Function that stores data of jaegar by using struct
+
 #include <iostream>
 #include <string>
 #include "struct.h"

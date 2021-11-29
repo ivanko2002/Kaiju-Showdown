@@ -1,4 +1,5 @@
-//Exchange Kaiju's props by xp
+//Function for player to exchange props by xp
+//Take number as input and return the corresponding prop
        	
 #include <iostream>
 #include <string>
@@ -13,6 +14,7 @@ void kprops(Player2 &k){
 	int choice;
 	string kprop;
 	while (true){	
+		
 		cout << "Remaining XP" <<k.xp << endl;
 
 		cout << "Powerful organs available:"  << endl;

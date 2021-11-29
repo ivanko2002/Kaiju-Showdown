@@ -1,14 +1,13 @@
-// Return the status of kaiju
-// Take input from player's data and outputs relevant information
-
+// Function that return the status of kaiju
+// Take input from player's data 
 
 #include<iostream>
 #include "struct.h"
 
 using namespace std;
 
-void kstatus(Player2 &k)
-{
+void kstatus(Player2 &k){
+    
     cout << "Name: " << k.name << endl;
     cout << "Type: " << k.type << endl;
     cout << "Health Point: " << k.hp << endl;

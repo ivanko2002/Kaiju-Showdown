@@ -1,17 +1,16 @@
-// Fuction for player to choosing a kaiju
-// Take input from player and return the class which the player chooses. 
-
+// Function for player to choosing a kaiju
+// Take number as input and return the corresponding kaiju 
 
 #include <iostream>
 #include "struct.h"
 
 using namespace std;
 
-string kchoice()
-{
+string kchoice(){
+	
     int n;
-    while (true)
-    {
+    while (true){
+	    
         cout << "Player 2 choose a kaiju" << endl;
         cout << "1.Slattern" << endl;
 	cout << "Characteristics: Highest health points" << endl;

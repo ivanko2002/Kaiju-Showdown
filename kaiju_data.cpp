@@ -1,4 +1,4 @@
-//Stores data of Kaiju
+//function that stores data of Kaiju in vector
 
 #include <iostream>
 #include "struct.h"

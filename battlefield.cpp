@@ -1,4 +1,4 @@
-//genreate a random battlefield by a random number
+//Function that generate a random battlefield
 
 #include <iostream>
 #include "struct.h"
