@@ -2,8 +2,9 @@
 #include "struct.h"
 using namespace std;
 void startgame(){
+	string pj,pk;
 	system("CLS");
-    jchoice();
+    pj=jchoice();
 	system("CLS");
     kchoice();   
 }
@@ -29,6 +30,7 @@ int main()
 			{
 			case 1:
 				startgame();
+				system("pause");
 				break;
 			case 2:
 				//printinstructions();
