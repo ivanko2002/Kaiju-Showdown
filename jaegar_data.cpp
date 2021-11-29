@@ -49,7 +49,7 @@ void choose_jaegar(vector<j> &jaegar)
 	CT.ap = 50;
 	CT.xp = 120;
 	CT.dp = 30;
-	CT.sp = 200;
+	CT.sp = 160;
 	CT.skill_1 = "Jet Kick";
 	CT.xp1 = 50;
 	CT.damage1 = 175;
@@ -83,7 +83,7 @@ void choose_jaegar(vector<j> &jaegar)
 	HH.ap = 100;
 	HH.xp = 150;
 	HH.dp = 25;
-	HH.sp = 160;
+	HH.sp = 200;
 	HH.skill_1 = "Hydra Beacham";
 	HH.xp1 = 30;
 	HH.damage1 = 150;

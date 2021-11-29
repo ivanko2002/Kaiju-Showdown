@@ -17,7 +17,7 @@ string kchoice(){
 	cout << endl;
 
         cout << "2. Otachi" << endl;
-	cout << "Characteristic: Highest experience points" << endl;
+	cout << "Characteristic: Highest speed" << endl;
 	cout << endl;
 
         cout << "3. Scunner" << endl;
