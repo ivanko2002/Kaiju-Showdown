@@ -82,7 +82,8 @@ struct Player2
 
    };
 
-
+void jaegar_bag(Player1 &j);
+void kaiju_bag(Player2 &k);
 void choose_jaegar(vector<j> &jaegar);
 void choose_kaiju(vector<k> &kaiju);
 void jstatus(Player1 &j);
