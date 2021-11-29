@@ -8,10 +8,10 @@ using namespace std;
 
 void jprops(Player1 &j){
 
-	prop* start = j.bag;
-	prop* now = start;
+	jprop* start = j.bag;
+	jprop* now = start;
 	int choice;
-	string prop;
+	string jprop;
 	while (true){	
 		cout << "Remaining XP" << j.xp << endl;
 
@@ -45,7 +45,7 @@ void jprops(Player1 &j){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = " I-19 Plasmacaster";
+				jprop = " I-19 Plasmacaster";
 				j.xp -= 30;
 				break;
 
@@ -54,7 +54,7 @@ void jprops(Player1 &j){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = "Plasma Chainsaw";
+				jprop = "Plasma Chainsaw";
 				j.xp -= 50;
 				break;
 			
@@ -63,7 +63,7 @@ void jprops(Player1 &j){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = "WMB2x90 Missle Launcher";
+				jprop = "WMB2x90 Missle Launcher";
 				j.xp -= 70;
 				break;
 
@@ -73,7 +73,7 @@ void jprops(Player1 &j){
 		
 			}
 		while (true){
-			if (prop == now -> prop_name){
+			if (jprop == now -> jprop_name){
 				now -> quantity += 1;
 				break;
 			}
