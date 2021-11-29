@@ -44,6 +44,6 @@ Features:
 
 Compilation
 1. Open linux command
-2. change to the directory where the files are located
+2. Change to the directory where the files are located
 3. Input "make main" as we have made a makefile
 4. Run by inputting "./main"
