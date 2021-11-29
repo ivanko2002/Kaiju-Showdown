@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void print_jprop(Player1 &j)
+void jaegar_bag(Player1 &j)
 {
 	jprop* start = j.bag;
 	jprop* now = start;
