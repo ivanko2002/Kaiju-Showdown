@@ -7,7 +7,7 @@
 
 
 
-void print_kprop(Player2 &k)
+void kaiju_bag(Player2 &k)
 {
 	kprop* start = k.bag;
 	kprop* now = start;
