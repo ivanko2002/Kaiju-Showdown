@@ -76,7 +76,7 @@ void kprops(Player2 &k){
 			}
 		while (true){
 			if (prop == now -> prop_name){
-				now -> quantity = quantity + 1;
+				now -> quantity += 1;
 				break;
 			}
 			else now = now -> next;
