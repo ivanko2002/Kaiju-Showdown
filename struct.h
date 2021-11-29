@@ -6,22 +6,24 @@
 
 using namespace std;
 
-struct jprop
-{
+struct jprop{
+    
     string jprop_name;
     int quantity;
     jprop * next;
+    
 };
 
-struct kprop
-{
+struct kprop{
+    
     string kprop_name;
     int quantity;
     kprop * next;
+    
 };
 
-struct j
-{
+struct j{
+    
     string name;
     int hp;
     int ap;
@@ -38,10 +40,10 @@ struct j
     int damage2;
     int damage3;
     
-    };
+};
 
-struct k
-{
+struct k{
+    
     string name;
     int hp;
     int ap;
@@ -79,10 +81,11 @@ struct Player1
     int damage1;
     int damage2;
     int damage3;
-   };
+    
+};
 
-struct Player2
-{
+struct Player2{
+    
     string name;
     string type;
     int hp;
@@ -101,7 +104,7 @@ struct Player2
     int damage2;
     int damage3;
 
-   };
+};
 
 void startgame_menu();
 void jaegar_bag(Player1 &j);
