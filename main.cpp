@@ -1,5 +1,3 @@
-//Function that initalize the game
-
 #include <iostream>
 #include "struct.h"
 
