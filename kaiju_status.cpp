@@ -15,7 +15,7 @@ void kstatus(Player2 &k)
     cout << "Attack Power: " << k.ap << endl;
     cout << "Experience Point: " << k.xp << endl;
     cout << "Defense Point: " << k.dp << endl;
-    cout << "Props: " << k.prop << endl;
+
 }
 
 
