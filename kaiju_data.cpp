@@ -30,7 +30,7 @@ void choose_kaiju(vector<k> &kaiju){
 	O.ap = 50;
 	O.xp = 150;
 	O.dp = 15;
-	O.sp = 75;
+	O.sp = 180;
 	O.skill_1 = "Prehensile Tail";
 	O.xp1 = 15;
 	O.damage1 = 35;
