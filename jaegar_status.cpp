@@ -15,6 +15,7 @@ void jstatus(Player1 &j)
     cout << "Attack Power: " << j.ap << endl;
     cout << "Experience Point: " << j.xp << endl;
     cout << "Defense Point: " << j.dp << endl;
+    cout << "Speed: " << j.sp << endl;
 
 }
 

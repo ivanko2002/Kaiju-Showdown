@@ -13,6 +13,7 @@ void choose_kaiju(vector<k> &kaiju){
 	S.ap = 75;
 	S.xp = 100;
 	S.dp = 10;
+	S.sp = 50;
 	S.skill_1 = "Hammer Jaw";
 	S.xp1 = 15;
 	S.damage1 = 50;
@@ -29,6 +30,7 @@ void choose_kaiju(vector<k> &kaiju){
 	O.ap = 50;
 	O.xp = 150;
 	O.dp = 15;
+	O.sp = 75;
 	O.skill_1 = "Prehensile Tail";
 	O.xp1 = 15;
 	O.damage1 = 35;
@@ -45,6 +47,7 @@ void choose_kaiju(vector<k> &kaiju){
 	Sc.ap = 60;
 	Sc.xp = 120;
 	Sc.dp = 20;
+	Sc.sp = 80;
 	Sc.skill_1 = "Clawhook";
 	Sc.xp1 = 25;
 	Sc.damage1 = 50;
@@ -61,6 +64,7 @@ void choose_kaiju(vector<k> &kaiju){
 	I.ap = 120;
 	I.xp = 100;
 	I.dp = 10;
+	I.sp = 95;
 	I.skill_1 = "Insurretor Claw";
 	I.xp1 = 30;
 	I.damage1 = 130;
@@ -77,6 +81,7 @@ void choose_kaiju(vector<k> &kaiju){
 	A.ap = 30;
 	A.xp = 175;
 	A.dp = 30;
+	A.sp = 100;
 	A.skill_1 = "Cherno Alpha";
 	A.xp1 = 40;
 	A.damage1 = 60;

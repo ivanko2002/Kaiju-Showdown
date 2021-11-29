@@ -27,6 +27,7 @@ struct j
     int ap;
     int xp;
     int dp;
+    int sp;
     string skill_1;
     string skill_2;
     string skill_3;
@@ -46,6 +47,7 @@ struct k
     int ap;
     int xp;
     int dp;
+    int sp;
     string skill_1;
     string skill_2;
     string skill_3;
@@ -66,6 +68,7 @@ struct Player1
     int ap;
     int xp;
     int dp;
+    int sp;
     jprop * bag;
     
    };
@@ -78,6 +81,7 @@ struct Player2
     int ap;
     int xp;
     int dp;
+    int sp;
     kprop * bag;
 
    };
