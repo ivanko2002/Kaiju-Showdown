@@ -3,10 +3,14 @@
 using namespace std;
 void startgame(){
 	string pj,pk;
+	vector<j> jaegars;
 	system("CLS");
     pj=jchoice();
+	choose_jaegar(jaegars);
+	//for loop to read data
 	system("CLS");
     kchoice();   
+	cout<<jaegars.back().hp<<endl;
 }
 int main()
 {
@@ -29,7 +33,7 @@ int main()
 			switch (input)
 			{
 			case 1:
-				startgame();
+				startgame_menu();
 				system("pause");
 				break;
 			case 2:

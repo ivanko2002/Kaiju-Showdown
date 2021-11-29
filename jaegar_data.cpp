@@ -5,7 +5,8 @@
 
 using namespace std;
 
-void choose_jaegar(vector<j> &jaegar){
+void choose_jaegar(vector<j> &jaegar)
+{
 
 	j GD;
 	GD.name = "Gipsy Danger";
@@ -40,7 +41,7 @@ void choose_jaegar(vector<j> &jaegar){
 	SE.skill_3 = "Nuclear Payload";
 	SE.xp3 = 200;
 	SE.damage3 = 500;
-	
+
 	j CT;
 	CT.name = "Crimson Typhoon";
 	CT.hp = 1000;
@@ -92,17 +93,9 @@ void choose_jaegar(vector<j> &jaegar){
 	HH.xp3 = 350;
 	HH.damage3 = 950;
 
-
 	jaegar.push_back(GD);
 	jaegar.push_back(SE);
 	jaegar.push_back(CT);
 	jaegar.push_back(MA);
 	jaegar.push_back(HH);
-
 }
-
-
-
-
-
-

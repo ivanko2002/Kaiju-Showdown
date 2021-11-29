@@ -1,5 +1,7 @@
 Flag= -pedantic-errors -std=c++11
 Header= struct.h
+startgame_menu.o: startgame_menu.cpp $(Header)
+		g++ $(Flag) -c $<
 battlefield.o: battlefield.cpp $(Header)
 		g++ $(Flag) -c $<
 jaegar_choice.o: jaegar_choice.cpp $(Header)
@@ -24,8 +26,6 @@ kaiju_bag.o: kaiju_bag.cpp $(Header)
 		g++ $(Flag) -c $<
 main.o: main.cpp $(Header)
 	g++ $(Flag) -c $<
-gameflow.o: gameflow.cpp $(Header)
-		g++ $(Flag) -c $<
 kj: *.o
 		g++ $(Flag) $^ -o $@
 clean:

@@ -97,4 +97,4 @@ void kprops(Player2 &k);
 string jchoice();
 string kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);
-void startgame();
+void startgame_menu();
