@@ -70,7 +70,15 @@ struct Player1
     int dp;
     int sp;
     jprop * bag;
-    
+    string skill_1;
+    string skill_2;
+    string skill_3;
+    int xp1;
+    int xp2;
+    int xp3;
+    int damage1;
+    int damage2;
+    int damage3;
    };
 
 struct Player2
@@ -83,6 +91,15 @@ struct Player2
     int dp;
     int sp;
     kprop * bag;
+    string skill_1;
+    string skill_2;
+    string skill_3;
+    int xp1;
+    int xp2;
+    int xp3;
+    int damage1;
+    int damage2;
+    int damage3;
 
    };
 
