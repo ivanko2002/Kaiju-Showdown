@@ -1,5 +1,5 @@
-// Return the status of jaegar
-// Take input from player's data and outputs relevant information
+// Function that returns the status of jaegar
+// Take input from player's data 
 
 
 #include <iostream>
