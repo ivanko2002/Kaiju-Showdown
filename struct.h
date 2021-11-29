@@ -6,11 +6,18 @@
 
 using namespace std;
 
-struct prop
+struct jprop
 {
-    string prop_name;
+    string jprop_name;
     int quantity;
-    prop * next;
+    jprop * next;
+};
+
+struct kprop
+{
+    string kprop_name;
+    int quantity;
+    kprop * next;
 };
 
 struct j
@@ -59,7 +66,7 @@ struct Player1
     int ap;
     int xp;
     int dp;
-    prop * bag;
+    jprop * bag;
     
    };
 
@@ -71,7 +78,7 @@ struct Player2
     int ap;
     int xp;
     int dp;
-    prop * bag;
+    kprop * bag;
 
    };
 
