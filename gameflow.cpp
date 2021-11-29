@@ -4,8 +4,3 @@
 #include "struct.h"
 
 using namespace std;
-startgame(){
-    jchoice();
-    kchoice();
-    
-}

@@ -1,7 +1,12 @@
 #include <iostream>
 #include "struct.h"
 using namespace std;
-
+void startgame(){
+	system("CLS");
+    jchoice();
+	system("CLS");
+    kchoice();   
+}
 int main()
 {
 	int exit_flag = 0;
@@ -23,7 +28,7 @@ int main()
 			switch (input)
 			{
 			case 1:
-				//startgame();
+				startgame();
 				break;
 			case 2:
 				//printinstructions();
