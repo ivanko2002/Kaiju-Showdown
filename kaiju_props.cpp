@@ -8,10 +8,10 @@ using namespace std;
 
 void kprops(Player2 &k){
 
-	prop* start = k.bag;
-	prop* now = start;
+	kprop* start = k.bag;
+	kprop* now = start;
 	int choice;
-	string prop;
+	string kprop;
 	while (true){	
 		cout << "Remaining XP" <<k.xp << endl;
 
@@ -47,7 +47,7 @@ void kprops(Player2 &k){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = "Blue Acid";
+				kprop = "Blue Acid";
 				k.xp -= 30;
 				break;
 
@@ -56,7 +56,7 @@ void kprops(Player2 &k){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = "Deadly spiked tails";
+				kprop = "Deadly spiked tails";
 				k.xp -= 70;
 				break;
 			
@@ -65,7 +65,7 @@ void kprops(Player2 &k){
 					cout << "Insufficient XP!" << endl;
 					continue;
 				}
-				prop = "Electronic lobes";
+				kprop = "Electronic lobes";
 				j.xp -= 90;
 				break;
 
@@ -75,7 +75,7 @@ void kprops(Player2 &k){
 		
 			}
 		while (true){
-			if (prop == now -> prop_name){
+			if (prop == now -> kprop_name){
 				now -> quantity += 1;
 				break;
 			}
