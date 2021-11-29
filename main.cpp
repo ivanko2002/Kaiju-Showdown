@@ -1,7 +1,7 @@
 #include <iostream>
 #include "struct.h"
 using namespace std;
-/*void startgame()
+void startgame()
 {
 	string pj, pk;
 	vector<j> jaegars;
@@ -12,7 +12,7 @@ using namespace std;
 	system("CLS");
 	kchoice();
 	cout << jaegars.back().hp << endl;
-}*/
+}
 int main()
 {
 	int exit_flag = 0;
