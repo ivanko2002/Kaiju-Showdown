@@ -29,7 +29,7 @@ string jchoice()
 		cout << endl;
 
 		cout << "5. Hydra Hyperion" << endl;
-		cout << "Characteristic: Highest attack power" << endl;
+		cout << "Characteristic: Highest speed" << endl;
 		cout << endl;
 
 		cout << endl;
