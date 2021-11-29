@@ -103,6 +103,7 @@ struct Player2
 
    };
 
+void startgame_menu();
 void jaegar_bag(Player1 &j);
 void kaiju_bag(Player2 &k);
 void choose_jaegar(vector<j> &jaegar);
@@ -114,4 +115,3 @@ void kprops(Player2 &k);
 string jchoice();
 string kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);
-void startgame_menu();

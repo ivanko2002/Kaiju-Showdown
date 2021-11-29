@@ -14,6 +14,7 @@ void startgame_menu()
         cout << "1.New game\n";
         cout << "2.Load game\n";
         cout << "3.Back\n";
+        cin>>input;
         menu_flag = 1;
         switch (input)
         {

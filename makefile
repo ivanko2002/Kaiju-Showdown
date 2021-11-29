@@ -26,7 +26,7 @@ kaiju_bag.o: kaiju_bag.cpp $(Header)
 		g++ $(Flag) -c $<
 main.o: main.cpp $(Header)
 	g++ $(Flag) -c $<
-kj: *.o
+kj: *o
 		g++ $(Flag) $^ -o $@
 clean:
 	rm -f *.o kj
