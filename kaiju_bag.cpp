@@ -1,11 +1,8 @@
-// Print props in bag
+// Function that print kaiju's props 
 // Take player data as input
-// Relevant prop will be outputted
 
 #include <iostream>
 #include "struct.h"
-
-
 
 void kaiju_bag(Player2 &k){
 	
