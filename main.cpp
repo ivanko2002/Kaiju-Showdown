@@ -1,18 +1,6 @@
 #include <iostream>
 #include "struct.h"
 using namespace std;
-void startgame()
-{
-	string pj, pk;
-	vector<j> jaegars;
-	system("CLS");
-	pj = jchoice();
-	choose_jaegar(jaegars);
-	//for loop to read data
-	system("CLS");
-	kchoice();
-	cout << jaegars.back().hp << endl;
-}
 int main()
 {
 	int exit_flag = 0;

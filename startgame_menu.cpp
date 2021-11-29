@@ -7,6 +7,7 @@ using namespace std;
 
 void startgame_menu()
 {
+    system("CLS");
     int input, menu_flag = 0, back_flag = 0;
     do
     {
@@ -19,7 +20,7 @@ void startgame_menu()
         switch (input)
         {
         case 1:
-            //newgame();
+            newgame();
             system("pause");
             break;
         case 2:
