@@ -1,5 +1,5 @@
-// Fuction for player to choosing a Jaegar
-// take the number the player input and return the corresponding character
+// Function for player to choosing a Jaegar
+// Take number as input and return the corresponding character
 
 #include <iostream>
 #include "struct.h"
