@@ -58,7 +58,7 @@ void choose_kaiju(vector<k> &kaiju){
 	Sc.xp3 = 200;
 	Sc.damage3 = 350;
 
-	kaiju I;
+	k I;
 	I.name = "Insurrector";
 	I.hp = 1200;
 	I.ap = 120;

@@ -12,7 +12,7 @@ string kchoice(){
     while (true){
 	    
         cout << "Player 2 choose a kaiju" << endl;
-        cout << "1.Slattern" << endl;
+        cout << "1. Slattern" << endl;
 	cout << "Characteristics: Highest health points" << endl;
 	cout << endl;
 
@@ -38,15 +38,15 @@ string kchoice(){
 
 	switch (n){
 		case 1:
-			return "Gipsy Danger";
+			return "Slattern";
 			break;
 		       
 		case 2:
-			return "Striker Eureka";
+			return "Otachi";
 			break;
 		
 		case 3:
-			return "Crimson Typhoon";
+			return "Scunner";
 			break;
 
 		case 4:
