@@ -15,9 +15,9 @@ void jaegar_bag(Player1 &j)
 	cout << "Jaegar's current props: " << endl;
 	while (current != NULL)
 	{
-		cout << i << ". " << now->jprop_name << ": " << now ->quantity << endl;
+		cout << i << ". " << now -> jprop_name << ": " << now -> quantity << endl;
 		i++;
-		now = now->next;
+		now = now -> next;
 	}
 }
 
