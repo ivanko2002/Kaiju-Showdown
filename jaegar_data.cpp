@@ -13,6 +13,7 @@ void choose_jaegar(vector<j> &jaegar){
 	GD.ap = 50;
 	GD.xp = 100;
 	GD.dp = 20;
+	GD.sp = 100;
 	GD.skill_1 = "Elbow Rocket";
 	GD.xp1 = 20;
 	GD.damage1 = 100;
@@ -29,6 +30,7 @@ void choose_jaegar(vector<j> &jaegar){
 	SE.ap = 45;
 	SE.xp = 150;
 	SE.dp = 10;
+	SE.sp = 150;
 	SE.skill_1 = "AKM Chest Launcher";
 	SE.xp1 = 15;
 	SE.damage1 = 120;
@@ -45,6 +47,7 @@ void choose_jaegar(vector<j> &jaegar){
 	CT.ap = 50;
 	CT.xp = 120;
 	CT.dp = 30;
+	CT.sp = 200;
 	CT.skill_1 = "Jet Kick";
 	CT.xp1 = 50;
 	CT.damage1 = 175;
@@ -61,6 +64,7 @@ void choose_jaegar(vector<j> &jaegar){
 	MA.ap = 40;
 	MA.xp = 135;
 	MA.dp = 55;
+	MA.sp = 175;
 	MA.skill_1 = "Apolo Punch";
 	MA.xp1 = 35;
 	MA.damage1 = 125;
@@ -77,6 +81,7 @@ void choose_jaegar(vector<j> &jaegar){
 	HH.ap = 100;
 	HH.xp = 150;
 	HH.dp = 25;
+	HH.sp = 160;
 	HH.skill_1 = "Hydra Beacham";
 	HH.xp1 = 30;
 	HH.damage1 = 150;
