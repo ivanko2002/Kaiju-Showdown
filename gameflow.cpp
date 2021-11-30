@@ -25,19 +25,54 @@ int gameflow(Player1 &p1, Player2 &p2)
             cout << "6. View jaegar status\n";
             cout << "7.Save and back to main menu\n";
             cin >> p1choice;
-            
-            if (p1choice > 0 and p1choice < 8)
+            switch (p1choice)
             {
-                if (p1choice == 6)
-                {
-                    //savefile();
-                    exit_flag = 1;
-                    cout << "Game saved, relocating to main menu\n";
-                }
+            case 1:
                 flag = 1;
-            }
-            else
-            {
+                break;
+            case 2:
+                flag = 1;
+                break;
+            case 3:
+                if (p1.xp < p1.xp1)
+                {
+                    cout << "Not enough xp to use " << p1.skill_1 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 4:
+                if (p1.xp < p1.xp2)
+                {
+                    cout << "Not enough xp to use " << p1.skill_2 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 5:
+                if (p1.xp < p1.xp3)
+                {
+                    cout << "Not enough xp to use " << p1.skill_3 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 6:
+                system("CLS");
+                jstatus(p1);
+                break;
+            case 7:
+                //savefile();
+                exit_flag = 1;
+                cout << "Game saved, relocating to main menu\n";
+                break;
+            default:
                 cout << "Incorrect input, please try again\n";
             }
         }
@@ -57,18 +92,54 @@ int gameflow(Player1 &p1, Player2 &p2)
             cout << "5. " << p2.skill_3 << endl;
             cout << "6.Save and back to main menu\n";
             cin >> p2choice;
-            if (p2choice > 0 and p2choice < 7)
+            switch (p2choice)
             {
-                if (p2choice == 6)
-                {
-                    //savefile();
-                    exit_flag = 1;
-                    cout << "Game saved, relocating to main menu\n";
-                }
+            case 1:
                 flag = 1;
-            }
-            else
-            {
+                break;
+            case 2:
+                flag = 1;
+                break;
+            case 3:
+                if (p2.xp < p2.xp1)
+                {
+                    cout << "Not enough xp to use " << p2.skill_1 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 4:
+                if (p2.xp < p2.xp2)
+                {
+                    cout << "Not enough xp to use " << p2.skill_2 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 5:
+                if (p2.xp < p2.xp3)
+                {
+                    cout << "Not enough xp to use " << p2.skill_3 << endl;
+                }
+                else
+                {
+                    flag = 1;
+                }
+                break;
+            case 6:
+                system("CLS");
+                kstatus(p2);
+                break;
+            case 7:
+                //savefile();
+                exit_flag = 1;
+                cout << "Game saved, relocating to main menu\n";
+                break;
+            default:
                 cout << "Incorrect input, please try again\n";
             }
         }
@@ -76,8 +147,8 @@ int gameflow(Player1 &p1, Player2 &p2)
         {
             return exit_flag;
         }
-        if (p1.sp>p2.sp){
-
+        if (p1.sp > p2.sp)
+        {
         }
     }
 }
