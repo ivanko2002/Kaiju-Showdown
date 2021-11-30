@@ -39,6 +39,8 @@ struct j{
     int damage1;
     int damage2;
     int damage3;
+    int rxp;
+    int rhp;
     
 };
 
@@ -59,6 +61,8 @@ struct k{
     int damage1;
     int damage2;
     int damage3;
+    int rxp;
+    int rhp;
 
     };
 
@@ -81,6 +85,8 @@ struct Player1
     int damage1;
     int damage2;
     int damage3;
+    int rxp;
+    int rhp;
     
 };
 
@@ -103,6 +109,8 @@ struct Player2{
     int damage1;
     int damage2;
     int damage3;
+    int rxp;
+    int rhp;
 
 };
 
