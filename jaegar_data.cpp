@@ -25,6 +25,8 @@ void choose_jaegar(vector<j> &jaegar)
 	GD.skill_3 = "Plasma Cannon";
 	GD.xp3 = 150;
 	GD.damage3 = 300;
+	GD.rxp = 10;
+	GD.rhp = 20;
 
 	j SE;
 	SE.name = "Striker Eureka";
@@ -42,6 +44,8 @@ void choose_jaegar(vector<j> &jaegar)
 	SE.skill_3 = "Nuclear Payload";
 	SE.xp3 = 200;
 	SE.damage3 = 500;
+	SE.rxp = 20;
+	SE.rhp = 35;
 
 	j CT;
 	CT.name = "Crimson Typhoon";
@@ -59,6 +63,8 @@ void choose_jaegar(vector<j> &jaegar)
 	CT.skill_3 = "Thunder Cloud Formation";
 	CT.xp3 = 300;
 	CT.damage3 = 800;
+	CT.rxp = 45;
+	CT.rhp = 45;
 
 	j MA;
 	MA.name = "Mammoth Apostle";
@@ -76,6 +82,8 @@ void choose_jaegar(vector<j> &jaegar)
 	MA.skill_3 = "MA Salvation";
 	MA.xp2 = 285;
 	MA.damage2 = 755;
+	MA.rxp = 30;
+	MA.rhp = 40;
 
 	j HH;
 	HH.name = "Hydra Hyperion";
@@ -93,6 +101,8 @@ void choose_jaegar(vector<j> &jaegar)
 	HH.skill_3 = "Shatterdome";
 	HH.xp3 = 350;
 	HH.damage3 = 950;
+	HH.rxp = 20;
+	HH.rhp = 60;
 
 	jaegar.push_back(GD);
 	jaegar.push_back(SE);
