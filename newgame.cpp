@@ -75,4 +75,5 @@ void newgame()
     system("pause");
     system("CLS");
     battlefield((rand()%3)+1,p1,p2);
+    gameflow(&p1,&p2);
 }

@@ -3,11 +3,13 @@
 using namespace std;
 int main()
 {
+	system("CLS");
+	cout << "Welcome to Kaiju Showdown\n";
+	system("PAUSE");
 	int exit_flag = 0;
 	while (exit_flag == 0)
 	{
-		cout << "Welcome to Kaiju Showdown\n";
-		system("PAUSE");
+		
 		int input, menu_flag = 0;
 		system("CLS");
 		do
@@ -26,7 +28,7 @@ int main()
 				system("pause");
 				break;
 			case 2:
-				//printinstructions();
+				instruction();
 				system("pause");
 				break;
 			case 3:

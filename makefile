@@ -2,6 +2,8 @@ Flag= -pedantic-errors -std=c++11
 Header= struct.h
 startgame_menu.o: startgame_menu.cpp $(Header)
 		g++ $(Flag) -c $<
+instruction.o: instruction.cpp $(Header)
+		g++ $(Flag) -c $<
 newgame.o: newgame.cpp $(Header)
 		g++ $(Flag) -c $<
 battlefield.o: battlefield.cpp $(Header)
