@@ -21,11 +21,11 @@ void instruction(){
     
     cout << "Please input an integer from 1 to 3 to indicate the skill you are going to use" << endl << endl;
     
-    cout << "At the end of each round, you can exchange props with your experience point" << endl << endl;
+    cout << "At the end of each round, you can exchange props with your current xp" << endl << endl;
     
-    cout << "The player cannot use the skill if the remaining xp is lower than that of the required xp of the skill" << endl << endl;
+    cout << "The player cannot use the skill if the current xp is lower than that of the required xp of the skill" << endl << endl;
     
-    cout << "The game ends when one character's health point becomes zero" << endl << endl;
+    cout << "The game ends when one character's hp becomes zero" << endl << endl;
     
     cout << "Enjoy the showdown :)" << endl << endl;
   
