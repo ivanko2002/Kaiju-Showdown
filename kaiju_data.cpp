@@ -23,6 +23,8 @@ void choose_kaiju(vector<k> &kaiju){
 	S.skill_3 = "Slattern Strike";
 	S.xp3 = 150;
 	S.damage3 = 250;
+	S.rxp = 20;
+	S.rhp = 5;
 
 	k O;
 	O.name = "Otachi";
@@ -40,6 +42,8 @@ void choose_kaiju(vector<k> &kaiju){
 	O.skill_3 = "Otachi Strike";
 	O.xp3 = 180;
 	O.damage3 = 300 ;
+	O.rxp = 10;
+	O.rhp = 3;
 	
 	k Sc;
 	Sc.name = "Scunner";
@@ -57,6 +61,8 @@ void choose_kaiju(vector<k> &kaiju){
 	Sc.skill_3 = "Scunner Fury";
 	Sc.xp3 = 200;
 	Sc.damage3 = 350;
+	Sc.rxp = 10;
+	Sc.rxp = 1;
 
 	k I;
 	I.name = "Insurrector";
@@ -74,6 +80,8 @@ void choose_kaiju(vector<k> &kaiju){
 	I.skill_3 = "Insurrection";
 	Sc.xp3 = 250;
 	Sc.damage3 = 550;
+	Sc.rxp = 20;
+	Sc.rhp = 5;
 
 	k A;
 	A.name = "Atticon";
@@ -91,6 +99,8 @@ void choose_kaiju(vector<k> &kaiju){
 	A.skill_3 = "Itak";
 	A.xp3 = 225;
 	A.damage3 = 400;
+	A.rxp = 1;
+	A.rhp = 5;
 
 
 	kaiju.push_back(S);
