@@ -1,12 +1,15 @@
 //This function reads players choices for characters
 
 #include <iostream>
+#include <cstdlib> 
+#include <ctime>
 #include "struct.h"
 
 using namespace std;
 
 void newgame()
 {
+    srand((unsigned)time(0)); 
     string pj, pk;
     Player1 p1;
     Player2 p2;
@@ -70,5 +73,6 @@ void newgame()
     }
     cout << p2.name << " was chosen." << endl;
     system("pause");
-    battlefield()
+    system("CLS");
+    battlefield((rand()%3)+1,p1,p2);
 }
