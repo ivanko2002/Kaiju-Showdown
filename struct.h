@@ -69,7 +69,6 @@ struct k{
 struct Player1
 {
     string name;
-    string type;
     int hp;
     int ap;
     int xp;
@@ -93,7 +92,6 @@ struct Player1
 struct Player2{
     
     string name;
-    string type;
     int hp;
     int ap;
     int xp;
