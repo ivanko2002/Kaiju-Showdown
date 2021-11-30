@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void print_instruct(){
+void instruction(){
   
     cout << "Welcome to Kaiju-Showdown !" << endl << endl;
     
