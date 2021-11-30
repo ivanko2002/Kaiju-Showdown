@@ -112,6 +112,7 @@ struct Player2{
 
 };
 
+void instruction();
 void startgame_menu();
 void newgame();
 void jaegar_bag(Player1 &j);
