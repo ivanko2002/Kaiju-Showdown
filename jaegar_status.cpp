@@ -10,7 +10,7 @@ using namespace std;
 void jstatus(Player1 &j)
 {
     cout << "Name: " << j.name << endl;
-    cout << "Type: " << j.type << endl;
+    cout << "Type: Jaegar" << endl;
     cout << "Health Point: " << j.hp << endl;
     cout << "Attack Power: " << j.ap << endl;
     cout << "Experience Point: " << j.xp << endl;
