@@ -20,7 +20,7 @@ void startgame_menu()
         switch (input)
         {
         case 1:
-            newgame();
+            back_flag=newgame();
             system("pause");
             break;
         case 2:
