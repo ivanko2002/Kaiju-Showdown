@@ -27,6 +27,7 @@ int newgame()
             p1.ap = jaegars.back().ap;
             p1.xp = jaegars.back().xp;
             p1.dp = jaegars.back().dp;
+            p1.sp= jaegars.back().sp;
             p1.xp1 = jaegars.back().xp1;
             p1.xp2 = jaegars.back().xp2;
             p1.xp3 = jaegars.back().xp3;
@@ -58,6 +59,7 @@ int newgame()
             p2.ap = kaijus.back().ap;
             p2.xp = kaijus.back().xp;
             p2.dp = kaijus.back().dp;
+            p2.sp=kaijus.back().sp;
             p2.xp1 = kaijus.back().xp1;
             p2.xp2 = kaijus.back().xp2;
             p2.xp3 = kaijus.back().xp3;
@@ -80,6 +82,7 @@ int newgame()
     system("pause");
     system("CLS");
     battlefield((rand()%3)+1,p1,p2);
+    system("pause");
     int exit=gameflow(p1,p2);
     return exit;
 }
