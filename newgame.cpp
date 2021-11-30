@@ -36,6 +36,8 @@ void newgame()
             p1.damage1 = jaegars.back().damage1;
             p1.damage2 = jaegars.back().damage2;
             p1.damage3 = jaegars.back().damage3;
+            p1.rxp=jaegars.back().rxp;
+            p1.rhp=jaegars.back().rhp;
         }
         else
         {
@@ -65,6 +67,9 @@ void newgame()
             p2.damage1 = kaijus.back().damage1;
             p2.damage2 = kaijus.back().damage2;
             p2.damage3 = kaijus.back().damage3;
+            p2.rhp=kaijus.back().rhp;
+            p2.rxp=kaijus.back().rxp;
+
         }
         else
         {
@@ -75,5 +80,5 @@ void newgame()
     system("pause");
     system("CLS");
     battlefield((rand()%3)+1,p1,p2);
-    gameflow(&p1,&p2);
+    gameflow(p1,p2);
 }

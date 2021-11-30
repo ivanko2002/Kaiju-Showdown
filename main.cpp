@@ -28,7 +28,7 @@ int main()
 				system("pause");
 				break;
 			case 2:
-				instruction();
+				//instruction();
 				system("pause");
 				break;
 			case 3:

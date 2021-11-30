@@ -7,5 +7,6 @@
 
 using namespace std;
 void gameflow(Player1 &p1,Player2 &p2){
-    
+    system("CLS");
+    cout<<"Player 1 choose an action for "<<p1.name<<endl;
 }

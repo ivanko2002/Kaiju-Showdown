@@ -127,3 +127,4 @@ string jchoice();
 string kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);
 void instruction();
+void gameflow(Player1 &p1, Player2 &p2);
