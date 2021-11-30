@@ -9,7 +9,7 @@ using namespace std;
 void kstatus(Player2 &k){
     
     cout << "Name: " << k.name << endl;
-    cout << "Type: " << k.type << endl;
+    cout << "Type: Kaiju" << endl;
     cout << "Health Point: " << k.hp << endl;
     cout << "Attack Power: " << k.ap << endl;
     cout << "Experience Point: " << k.xp << endl;
