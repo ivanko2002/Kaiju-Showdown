@@ -40,7 +40,6 @@ void jprops(Player1 &j)
 			 << endl;
 
 		cin >> choice;
-
 		switch (choice)
 		{
 
@@ -50,8 +49,12 @@ void jprops(Player1 &j)
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
-			jprop = " I-19 Plasmacaster";
-			j.xp -= 30;
+			else
+			{
+				jprop = "I-19 Plasmacaster";
+				j.xp -= 30;
+				cout << "I-19 Plasmacaster was added to bag\n";
+			}
 			break;
 
 		case 2:
@@ -60,8 +63,12 @@ void jprops(Player1 &j)
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
-			jprop = "Plasma Chainsaw";
-			j.xp -= 50;
+			else
+			{
+				jprop = "Plasma Chainsaw";
+				j.xp -= 50;
+				cout << "Plasma Chainsaw was added to bag\n";
+			}
 			break;
 
 		case 3:
@@ -70,8 +77,12 @@ void jprops(Player1 &j)
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
-			jprop = "WMB2x90 Missle Launcher";
-			j.xp -= 70;
+			else
+			{
+				jprop = "WMB2x90 Missle Launcher";
+				j.xp -= 70;
+				cout << "WMB2x90 Missle Launcher was added to bag\n";
+			}
 			break;
 
 		default:
