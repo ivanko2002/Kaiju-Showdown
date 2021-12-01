@@ -3,6 +3,7 @@
 Group 102
 
 Members: Ko Man Sing 3035778216
+         
          Chan Yu Hin 3035785984
 
 Game descriptions:
@@ -37,7 +38,7 @@ Features:
 4. File input/output 
 - Load and save game status.
 - The players can choose to quit the battle at any time. 
-- At the beginning of the game, the user type the date played last time to load the data
+- At the beginning of the game, the user type the filename they set last time to load the data
 
 5. Program codes in multiple files:
 - The functions are separated into several files
@@ -48,3 +49,4 @@ Compilation
 2. Change to the directory where the files are located
 3. Input "make main" as we have made a makefile
 4. Run by inputting "./main"
+5. Start playing 
