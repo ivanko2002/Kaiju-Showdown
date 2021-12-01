@@ -14,10 +14,10 @@ void jprops(Player1 &j)
 	string prop;
 	while (true)
 	{
-		cout << "Remaining XP" << j.xp << endl
+		cout << "Remaining XP: " << j.xp << endl
 			 << endl;
 
-		cout << "Weapons available:" << endl
+		cout << "Weapons available: " << endl
 			 << endl;
 
 		cout << "1. I-19 Plasmacaster " << endl;
