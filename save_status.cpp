@@ -52,4 +52,5 @@ void save_status(Player1 &j, Player2 &k)
 	fout << k.skill_3 << endl;
 	fout << k.xp3 << endl;
 	fout << k.damage3 << endl;
+	fout.close();
 }
