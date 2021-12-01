@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void kprops(Player2 &k, Player1 &j){
+void kprops(Player2 &k){
 
 	kprop* start = k.bag;
 	kprop* now = start;
