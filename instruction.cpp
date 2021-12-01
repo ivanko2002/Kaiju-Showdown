@@ -26,7 +26,9 @@ void instruction(){
     
     cout << "The player cannot use the skill if the current xp is lower than that of the required xp of the skill" << endl << endl;
     
-    cout << "The game ends when one character's hp becomes zero" << endl << endl;
+    cout << "The game ends when one character's hp equals or below zero" << endl << endl;
+    
+    cout << "To attract players continue the game, if players quit they will lose all props" << endl << endl;
     
     cout << "Enjoy the showdown :)" << endl << endl;
   
