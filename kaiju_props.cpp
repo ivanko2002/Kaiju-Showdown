@@ -15,30 +15,26 @@ void kprops(Player2 &k){
 	string kprop;
 	while (true){	
 		
-		cout << "Remaining XP" <<k.xp << endl;
+		cout << "Remaining XP" << k.xp << endl << endl;
 
 		cout << "Powerful organs available:"  << endl;
-		cout << endl; 
+		cout << endl << endl; 
 
 		cout << "1. Blue Acid " << endl;
 		cout << "Description: Toxic agent in the blood of Kaiju" << endl;
 		cout << "Effect: Kaiju's HP +100" << endl;
-		cout << "XP in exchange: 30" << endl;
-		cout << endl; 
+		cout << "XP in exchange: 30" << endl << endl;
 
 		cout << "2. Deadly spiked tails" << endl;
 		cout << "Description: 3 killing tails extending Kaiju's chest spike " << endl;
 		cout << "Effect: Kaiju's AP +150" << endl;
-		cout << "XP in exchange: 70" << endl;
-		cout << endl;
+		cout << "XP in exchange: 70" << endl << endl;
 
 
 		cout << "3. Electronic lobes" << endl;
 		cout << "Description: Generate a huge electronic-killing pulse" << endl;
 		cout << "Effect: Freeze Jaegar for 3 rounds" << endl;
-		cout << "XP in exchange: 90" << endl;
-		cout << endl;
-
+		cout << "XP in exchange: 90" << endl << endl;
 	
 		cin >> choice;
 		
