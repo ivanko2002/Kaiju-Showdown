@@ -82,6 +82,7 @@ void jprops(Player1 &j)
 		{
 			if (now -> jprop_name == prop)
 			{
+				
 				now -> quantity += 1;
 				break;
 			}
