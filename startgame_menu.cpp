@@ -23,8 +23,7 @@ void startgame_menu()
             back_flag=newgame();
             break;
         case 2:
-            //loadgame();
-            system("pause");
+            //backflag=loadgame();
             break;
         case 3:
             back_flag = 1;
