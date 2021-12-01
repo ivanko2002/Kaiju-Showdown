@@ -20,7 +20,7 @@ string jchoice()
 		cout << "skill_3 = Plasma Cannon\nxp = 150\tdamage = 300" << endl << endl;
 		
 		cout << "2. Striker Eureka" << endl << endl;
-		cout << "Characteristic: Highest experience points" << << endl << endl;
+		cout << "Characteristic: Highest experience points" << endl << endl;
 		cout << "hp = 1200\tp = 45\txp = 150\tdp = 10\tsp = 150" << endl << endl;
 		cout << "skill_1 = AKM Chest Launcher\nxp = 15\tdamage = 120" << endl << endl;
 		cout << "skill_2 = Sting-Blades\nxp = 45\tdamage = 200" << endl << endl;
