@@ -83,6 +83,56 @@ int newgame()
     system("CLS");
     battlefield((rand()%3)+1,p1,p2);
     system("pause");
-    int exit=gameflow(p1,p2);
+    jprop *jhead =NULL;
+	jhead=p1.bag;
+	for (int i = 0; i < 3; i++)
+	{
+		switch (i)
+		{
+		case 0:
+			p1.bag->jprop_name = "I-19 Plasmacaster";
+            p1.bag->quantity=0;
+			p1.bag->next = new jprop;
+			p1.bag = p1.bag->next;
+			break;
+		case 1:
+			p1.bag->jprop_name = "Plasma Chainsaw";
+            p1.bag->quantity=0;
+			p1.bag->next = new jprop;
+			p1.bag = p1.bag->next;
+			break;
+		case 2:
+			p1.bag->jprop_name = "WMB2x90 Missle Launcher";
+            p1.bag->quantity=0;
+			p1.bag->next = new jprop;
+			break;
+		}
+	}
+    kprop *khead =NULL;
+	khead=p2.bag;
+	for (int i = 0; i < 3; i++)
+	{
+		switch (i)
+		{
+		case 0:
+			p2.bag->kprop_name = "Blue Acid";
+            p2.bag->quantity=0;
+			p2.bag->next = new kprop;
+			p2.bag = p2.bag->next;
+			break;
+		case 1:
+			p2.bag->kprop_name = "Deadly spiked tails";
+            p2.bag->quantity=0;
+			p2.bag->next = new kprop;
+			p2.bag = p2.bag->next;
+			break;
+		case 2:
+			p2.bag->kprop_name = "Electronic lobes";
+            p2.bag->quantity=0;
+			p2.bag->next = new kprop;
+			break;
+		}
+	}
+    int exit=gameflow(p1,p2,jhead,khead);
     return exit;
 }

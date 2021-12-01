@@ -8,7 +8,7 @@
 #include "struct.h"
 
 using namespace std;
-int gameflow(Player1 &p1, Player2 &p2)
+int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
 {
     srand((unsigned)time(0));
     int exit_flag = 0;
@@ -386,7 +386,10 @@ int gameflow(Player1 &p1, Player2 &p2)
             }
         }
         system("CLS");
-        jprops(p1);
+        
+        jprops(p1,jhead);
+        system("CLS");
+        kprops(p2,khead);
     }
     return exit_flag;
 }

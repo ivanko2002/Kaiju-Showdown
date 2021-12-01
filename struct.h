@@ -1,29 +1,30 @@
 // Storage of structs and functions
 
-#include<iostream>
+#include <iostream>
 #include <vector>
 #include <random>
 
 using namespace std;
 
-struct jprop{
-    
+struct jprop
+{
+
     string jprop_name;
     int quantity;
-    jprop * next;
-    
+    jprop *next;
 };
 
-struct kprop{
-    
+struct kprop
+{
+
     string kprop_name;
     int quantity;
-    kprop * next;
-    
+    kprop *next;
 };
 
-struct j{
-    
+struct j
+{
+
     string name;
     int hp;
     int ap;
@@ -41,11 +42,11 @@ struct j{
     int damage3;
     int rxp;
     int rhp;
-    
 };
 
-struct k{
-    
+struct k
+{
+
     string name;
     int hp;
     int ap;
@@ -63,8 +64,7 @@ struct k{
     int damage3;
     int rxp;
     int rhp;
-
-    };
+};
 
 struct Player1
 {
@@ -74,7 +74,7 @@ struct Player1
     int xp;
     int dp;
     int sp;
-    jprop * bag;
+    jprop *bag = new jprop;
     string skill_1;
     string skill_2;
     string skill_3;
@@ -86,18 +86,18 @@ struct Player1
     int damage3;
     int rxp;
     int rhp;
-    
 };
 
-struct Player2{
-    
+struct Player2
+{
+
     string name;
     int hp;
     int ap;
     int xp;
     int dp;
     int sp;
-    kprop * bag;
+    kprop *bag = new kprop;
     string skill_1;
     string skill_2;
     string skill_3;
@@ -109,9 +109,7 @@ struct Player2{
     int damage3;
     int rxp;
     int rhp;
-
 };
-
 
 void save_status(Player1 &j, Player2 &k);
 void instruction();
@@ -123,10 +121,10 @@ void choose_jaegar(vector<j> &jaegar);
 void choose_kaiju(vector<k> &kaiju);
 void jstatus(Player1 &j);
 void kstatus(Player2 &k);
-void jprops(Player1 &j);
-void kprops(Player2 &k);
+void jprops(Player1 &j,jprop *&jhead);
+void kprops(Player2 &k,kprop *&khead);
 string jchoice();
 string kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);
 void instruction();
-int gameflow(Player1 &p1, Player2 &p2);
+int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead);

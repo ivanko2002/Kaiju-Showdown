@@ -6,13 +6,15 @@
 #include "struct.h"
 using namespace std;
 
-void jprops(Player1 &j)
+void jprops(Player1 &j, jprop *&jhead)
 {
-	jprop *start = j.bag;
+	
+	jprop *start = jhead;
 	jprop *now = start;
 	int choice;
 	string prop;
-	while (true)
+	int buy=0;
+	while (buy==0)
 	{
 		cout << "Remaining XP: " << j.xp << endl
 			 << endl;
@@ -37,57 +39,69 @@ void jprops(Player1 &j)
 		cout << "Effect: Jaegar's AP +150" << endl;
 		cout << "XP in exchange: 70" << endl
 			 << endl;
-		
-		cout << "4. Exit" << endl << endl;
-		
+
+		cout << "4. Exit" << endl
+			 << endl;
+
 		cout << "Your choice is: ";
 		cin >> choice;
-		
-		if (choice == 1){
-			if (j.xp < 30){
+
+		if (choice == 1)
+		{
+			if (j.xp < 30)
+			{
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
 			prop = "I-19 Plasmacaster";
 			j.xp -= 30;
+			buy=1;;
 		}
-		else if (choice == 2){
-			if (j.xp < 50){
+		else if (choice == 2)
+		{
+			if (j.xp < 50)
+			{
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
 			prop = "Plasma Chainsaw";
 			j.xp -= 50;
+			buy=1;
 		}
-				
-		else if (choice == 3){
-			if (j.xp < 70){
+
+		else if (choice == 3)
+		{
+			if (j.xp < 70)
+			{
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
 			prop = "WMB2x90 Missle Launcher";
 			j.xp -= 70;
+			buy=1;
 		}
-				
-		else if (choice == 4) return;
 
-		else{
+		else if (choice == 4)
+			return;
+
+		else
+		{
 			cout << "Invalid input!" << endl;
 			cout << "Please input a number between 1 - 3" << endl;
 			cout << "Your input is ";
 			continue;
 		}
-		
+
 		while (true)
 		{
-			if (now -> jprop_name == prop)
+			if (now->jprop_name == prop)
 			{
-				
-				now -> quantity += 1;
+
+				now->quantity += 1;
 				break;
 			}
 			else
-				now = now -> next;
+				now = now->next;
 		}
 		now = start;
 	}
