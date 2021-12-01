@@ -38,11 +38,13 @@ void jprops(Player1 &j)
 		cout << "Effect: Jaegar's AP +150" << endl;
 		cout << "XP in exchange: 70" << endl
 			 << endl;
+		
+		cout << "4. Exit" << endl << endl;
 
 		cin >> choice;
-		switch (choice)
-		{
-
+		
+		switch (choice){
+				
 		case 1:
 			if (j.xp < 30)
 			{
@@ -84,15 +86,21 @@ void jprops(Player1 &j)
 				cout << "WMB2x90 Missle Launcher was added to bag\n";
 			}
 			break;
+		
+		case 4:
+			cout << "Exit ..." << endl;
+			return false;
 
 		default:
 			cout << "Invalid input!" << endl
 				 << "Please input a number between 1 - 3" << endl;
 			cout << "Your input is ";
 		}
+		}
+		
 		while (true)
 		{
-			if (jprop == now->jprop_name)
+			if (now->jprop_name == jprop)
 			{
 				now->quantity += 1;
 				break;
