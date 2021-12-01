@@ -10,8 +10,8 @@ void kaiju_bag(Player2 &k){
 	kprop* now = start;
 	int n = 1;
 	cout << "Kaiju's current props: " << endl;
-	while (current != NULL){
-		cout << n << ". " << now->kprop_name << ": " ;
+	while (now != NULL){
+		cout << n << ". " << now- > kprop_name << ": " ;
 		cout << now -> quantity << endl;
 		n++;
 		now = now -> next;
