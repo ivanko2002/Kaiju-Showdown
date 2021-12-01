@@ -7,89 +7,114 @@
 
 using namespace std;
 
-void save_status(Player1 &j, Player2 &k)
-{
+void save_status(Player1 &j, Player2 &k){
 
 	string name, date;
 	cout << "Enter you name: " << endl;
-	cin >> name
+	cin >> name;
 	cout << "Enter today's date (dd/mm):  " << endl;
-	cin >> date
+	cin >> date;
 
 	string final_file = name + date + "_.txt";
 
 	ofstream fout;
 	fout.open(final_file);
 
-	jprop * now = j.bag;
-
-	kprop * now = k.bag;
-
 	fout << "Jaegar" << endl;
 
-	fout << "Name: " << j.name << endl;
+	fout << "Name: " << endl;
+	fout << j.name << endl;
 
-	fout << "Health Point: " << j.hp << endl;
+	fout << "hp: " << endl;
+	fout << j.hp << endl;
 
-	fout << "Attack Power: " << j.ap << endl;
+	fout << "ap: " << endl;
+	fout << j.ap << endl;
     
-	fout << "Experience Point: " << j.xp << endl;
+	fout << "xp: " << endl;
+	fout << j.xp << endl;
 
-	fout << "Defensive Point: " << j.dp << endl;
+	fout << "dp: " << endl;
+	cout << j.dp << endl;
 
-	fout << "Speed: " << j.sp << endl;
+	fout << "sp: " << endl;
+	fout << j.sp << endl;
       
-	fout << "Skill_1: " << j.skill_1 << endl;
+	fout << "Skill_1: " << endl;
+	fout << j.skill_1 << endl;
 
-	fout << "XP_1: " << j.xp1 << endl;
+	fout << "XP_1: " << endl;
+	fout << j.xp1 << endl;
 
-	fout << "Damage_1: " << j.damage1 << endl;
+	fout << "Damage_1: " << endl;
+	fout << j.damage1 << endl;
 
-	fout << "Skill_2: " << j.skill_2 << endl;
+	fout << "Skill_2: " << endl;
+	fout << j.skill_2 << endl;
 
-	fout << "XP_2: " << j.xp2 << endl;
+	fout << "XP_2: " << endl;
+	fout << j.xp2 << endl;
 
-	fout << "Damage_2: " << j.damage1 << endl;
+	fout << "Damage_2: " << endl;
+	fout << j.damage1 << endl;
 
-	fout << "Skill_3: " << j.skill_3 << endl;
+	fout << "Skill_3: " << endl;
+	fout << j.skill_3 << endl;
 	
-	fout << "XP_3: " << j.xp3 << endl;
+	fout << "XP_3: " << endl;
+	fout << j.xp3 << endl;
 
-	fout << "Damage_3: " << j.damage3 << endl;
+	fout << "Damage_3: " << endl;
+	fout << j.damage3 << endl;
 
 	fout << "End of Jaegar" << endl << endl;
 
 	fout << "Kaiju" << endl;
 
-	fout << "Name: " << k.name << endl;
+	fout << "Name: " << endl;
+	fout << k.name << endl;
 
-	fout << "Health Point: " << k.hp << endl;
+	fout << "hp: " << endl;
+	fout << k.hp << endl;
 
-	fout << "Attack Power: " << k.ap << endl;
+	fout << "ap: " << endl;
+	fout << k.ap << endl;
     
-	fout << "Experience Point: " << k.xp << endl;
+	fout << "xp: " << endl;
+	fout << k.xp << endl;
 
-	fout << "Defensive Point: " << k.dp << endl;
+	fout << "dp: " << endl;
+	fout << k.dp << endl;
 
-	fout << "Speed: " << k.sp <<endl;
+	fout << "sp: " << endl;
+	fout << k.sp << endl;
       
-	fout << "Skill_1: " << k.skill_1 << endl;
+	fout << "Skill_1: " << endl;
+	fout << k.skill_1 << endl;
 
-	fout << "XP_1: " << k.xp1 << endl;
+	fout << "XP_1: " << endl;
+	fout << k.xp1 << endl;
 
-	fout << "Damage_1: " << k.damage1 << endl;
+	fout << "Damage_1: " << endl;
+	fout << k.damage1 << endl;
 
-	fout << "Skill_2: " << k.skill_2 << endl;
+	fout << "Skill_2: " << endl;
+	fout << k.skill_2 << endl;
 
-	fout << "XP_2: " << k.xp2 << endl;
+	fout << "XP_2: " << endl;
+	fout << k.xp2 << endl;
 
-	fout << "Damage_2: " << k.damage1 << endl;
+	fout << "Damage_2: " << endl;
+	fout << k.damage1 << endl;
 
-	fout << "Skill_3: " << k.skill_3 << endl;
+	fout << "Skill_3: " << endl;
+	fout << k.skill_3 << endl;
 	
-	fout << "XP_3: " << k.xp3 << endl;
+	fout << "XP_3: " << endl;
+	fout << k.xp3 << endl;
 
-	fout << "Damage_3: " << k.damage3 << endl;
+	fout << "Damage_3: " << endl;
+	fout << k.damage3 << endl;
 
 	fout << "End of Kaiju" << endl;
 
