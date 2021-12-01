@@ -35,7 +35,7 @@ kaiju_bag.o: kaiju_bag.cpp $(Header)
 		g++ $(Flag) -c $<
 main.o: main.cpp $(Header)
 		g++ $(Flag) -c $<
-kj: main.o save_status.o startgame_menu.o newgame.o gameflow.o jaegar_status.o kaiju_status.o instruction.o jaegar_choice.o jaegar_data.o kaiju_choice.o kaiju_data.o battlefield.o
+kj: main.o startgame_menu.o newgame.o gameflow.o jaegar_status.o kaiju_status.o instruction.o jaegar_choice.o jaegar_data.o kaiju_choice.o kaiju_data.o battlefield.o jaegar_props.o kaiju_props.o
 		g++ $(Flag) $^ -o $@
 clean:
 	rm -f *.o kj
