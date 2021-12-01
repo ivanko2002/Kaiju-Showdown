@@ -93,15 +93,4 @@ void save_status(Player1 &j, Player2 &k)
 
 	fout << "End of Kaiju" << endl;
 
-	while (now != NULL)
-	{
-		fout << now -> jprop_name << endl;
-	       	fout << now -> quantity << endl;
-		now = now -> next;
-
-		fout << now -> kprop_name << endl;
-		fout << now -> quantity << endl;
-		now = now -> next;
-	}
-	fout.close();
 }
