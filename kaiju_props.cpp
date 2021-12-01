@@ -7,7 +7,7 @@
 
 using namespace std;
 
-void kprops(Player2 &k){
+void kprops(Player2 &k, Player1 &j){
 
 	kprop* start = k.bag;
 	kprop* now = start;
@@ -28,7 +28,7 @@ void kprops(Player2 &k){
 
 		cout << "2. Deadly spiked tails" << endl;
 		cout << "Description: 3 killing tails extending Kaiju's chest spike " << endl;
-		cout << "Effect: Jaegar's AP +150" << endl;
+		cout << "Effect: Kaiju's AP +150" << endl;
 		cout << "XP in exchange: 70" << endl;
 		cout << endl;
 
@@ -68,7 +68,7 @@ void kprops(Player2 &k){
 					continue;
 				}
 				kprop = "Electronic lobes";
-				j.xp -= 90;
+				k.xp -= 90;
 				break;
 
 			default:
@@ -77,7 +77,7 @@ void kprops(Player2 &k){
 		
 			}
 		while (true){
-			if (prop == now -> kprop_name){
+			if (kprop == now -> kprop_name){
 				now -> quantity += 1;
 				break;
 			}
