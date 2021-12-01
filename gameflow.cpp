@@ -385,7 +385,8 @@ int gameflow(Player1 &p1, Player2 &p2)
                 }
             }
         }
-        //props
+        system("CLS");
+        jprops(p1);
     }
     return exit_flag;
 }
