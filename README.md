@@ -23,6 +23,7 @@ Features:
 1. Generation of random game sets or events:
 - The characters(either a Kaiju or a Jaeger) are randomly generated to the players.
 - The battlefield will be randomly generated.
+- If the player choose heal function, his hp will randomly recover
 
 2. Data structures for storing game status:
 - Integer: HP, XP, attack power, defense power, speed, etc.
