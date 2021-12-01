@@ -11,7 +11,7 @@ void kaiju_bag(Player2 &k){
 	int n = 1;
 	cout << "Kaiju's current props: " << endl;
 	while (now != NULL){
-		cout << n << ". " << now- > kprop_name << ": " ;
+		cout << n << ". " << now -> kprop_name << ": " ;
 		cout << now -> quantity << endl;
 		n++;
 		now = now -> next;
