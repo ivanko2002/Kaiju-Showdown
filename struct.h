@@ -112,6 +112,8 @@ struct Player2{
 
 };
 
+
+void save_status(Player1 &j, Player2 &k);
 void instruction();
 void startgame_menu();
 int newgame();
