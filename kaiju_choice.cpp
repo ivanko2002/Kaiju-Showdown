@@ -14,7 +14,7 @@ string kchoice(){
         cout << "Player 2 choose a kaiju" << endl;
         cout << "1. Slattern" << endl;
 	cout << "Characteristics: Highest health points" << endl;
-	cout << "hp = 2500\nap = 75\nxp = 100\ndp = 10\nsp = 50" << endl << end;
+	cout << "hp = 2500\nap = 75\nxp = 100\ndp = 10\nsp = 50" << endl << endl;
 
         cout << "2. Otachi" << endl;
 	cout << "Characteristic: Highest speed" << endl;
