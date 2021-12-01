@@ -3,7 +3,6 @@
 Group 102
 
 Members: Ko Man Sing 3035778216
-         
          Chan Yu Hin 3035785984
 
 Game descriptions:
