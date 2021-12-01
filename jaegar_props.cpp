@@ -75,7 +75,7 @@ void jprops(Player1 &j)
 			cout << "Invalid input!" << endl;
 			cout << "Please input a number between 1 - 3" << endl;
 			cout << "Your input is ";
-			continue
+			continue;
 		}
 		
 		while (true)
