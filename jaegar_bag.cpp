@@ -12,7 +12,7 @@ void jaegar_bag(Player1 &j){
 	jprop* now = start;
 	int i = 1;
 	cout << "Jaegar's current props: " << endl;
-	while (current != NULL){
+	while (now != NULL){
 		cout << i << ". " << now -> jprop_name << ": " ;
 		cout << now -> quantity << endl;
 		i++;
