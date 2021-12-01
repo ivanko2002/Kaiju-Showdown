@@ -39,7 +39,8 @@ void jprops(Player1 &j)
 			 << endl;
 		
 		cout << "4. Exit" << endl << endl;
-
+		
+		cout << "Your choice is: ";
 		cin >> choice;
 		
 		if (choice == 1){
