@@ -8,17 +8,16 @@ using namespace std;
 
 void jprops(Player1 &j)
 {
-
 	jprop *start = j.bag;
 	jprop *now = start;
 	int choice;
-	string jprop;
+	string prop;
 	while (true)
 	{
-		cout << "Remaining XP" << j.xp << endl
+		cout << "Remaining XP: " << j.xp << endl
 			 << endl;
 
-		cout << "Weapons available:" << endl
+		cout << "Weapons available: " << endl
 			 << endl;
 
 		cout << "1. I-19 Plasmacaster " << endl;
@@ -40,73 +39,54 @@ void jprops(Player1 &j)
 			 << endl;
 		
 		cout << "4. Exit" << endl << endl;
-
+		
+		cout << "Your choice is: ";
 		cin >> choice;
 		
-		switch (choice){
-				
-		case 1:
-			if (j.xp < 30)
-			{
+		if (choice == 1){
+			if (j.xp < 30){
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
-			else
-			{
-				jprop = "I-19 Plasmacaster";
-				j.xp -= 30;
-				cout << "I-19 Plasmacaster was added to bag\n";
-			}
-			break;
-
-		case 2:
-			if (j.xp < 50)
-			{
-				cout << "Insufficient XP!" << endl;
-				continue;
-			}
-			else
-			{
-				jprop = "Plasma Chainsaw";
-				j.xp -= 50;
-				cout << "Plasma Chainsaw was added to bag\n";
-			}
-			break;
-
-		case 3:
-			if (j.xp < 70)
-			{
-				cout << "Insufficient XP!" << endl;
-				continue;
-			}
-			else
-			{
-				jprop = "WMB2x90 Missle Launcher";
-				j.xp -= 70;
-				cout << "WMB2x90 Missle Launcher was added to bag\n";
-			}
-			break;
-		
-		case 4:
-			cout << "Exit ..." << endl;
-			return false;
-
-		default:
-			cout << "Invalid input!" << endl
-				 << "Please input a number between 1 - 3" << endl;
-			cout << "Your input is ";
+			prop = "I-19 Plasmacaster";
+			j.xp -= 30;
 		}
+		else if (choice == 2){
+			if (j.xp < 50){
+				cout << "Insufficient XP!" << endl;
+				continue;
+			}
+			prop = "Plasma Chainsaw";
+			j.xp -= 50;
+		}
+				
+		else if (choice == 3){
+			if (j.xp < 70){
+				cout << "Insufficient XP!" << endl;
+				continue;
+			}
+			prop = "WMB2x90 Missle Launcher";
+			j.xp -= 70;
+		}
+				
+		else if (choice == 4) return;
+
+		else{
+			cout << "Invalid input!" << endl;
+			cout << "Please input a number between 1 - 3" << endl;
+			cout << "Your input is ";
+			continue
 		}
 		
 		while (true)
 		{
-			if (now->jprop_name == jprop)
+			if (now -> jprop_name == prop)
 			{
-				now->quantity += 1;
+				now -> quantity += 1;
 				break;
 			}
 			else
-				now = now->next;
+				now = now -> next;
 		}
 		now = start;
 	}
