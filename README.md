@@ -9,7 +9,7 @@ Game descriptions:
 
 A text-based RPG game. In the future, Kaiju, monsters from another world are invading our world. Jagers which are gigantic robots are created to fight against them.
 
-In this game, players will either control a Kaiju or a Jager and fight against each other. Each character will have different health points(HP), experience points(XP) and abilities.
+In this game, players will either control a Kaiju or a Jager and fight against each other. Each character will have different health points(HP), experience points(XP) and skills.
 
 Game rules:
 
