@@ -10,11 +10,13 @@ using namespace std;
 void save_status(Player1 &j, Player2 &k)
 {
 
-	string date;
+	string name, date;
+	cout << "Enter you name: " << endl;
+	cin >> name
 	cout << "Enter today's date (dd/mm):  " << endl;
 	cin >> date
 
-	string final_file = date + "_.txt";
+	string final_file = name + date + "_.txt";
 
 	ofstream fout;
 	fout.open(final_file);
@@ -91,16 +93,4 @@ void save_status(Player1 &j, Player2 &k)
 
 	fout << "End of Kaiju" << endl;
 
-
-	while (now != NULL)
-	{
-		fout << now -> jprop_name << endl;
-	       	fout << now -> quantity << endl;
-		now = now -> next;
-
-		fout << now -> kprop_name << endl;
-		fout << now -> quantity << endl;
-		now = now -> next;
-	}
-	fout.close();
 }
