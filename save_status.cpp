@@ -35,7 +35,7 @@ void save_status(Player1 &j, Player2 &k)
 
 	fout << "Defensive Point: " << j.dp << endl;
 
-	fout << "Speed: " << j.sp <<endl;
+	fout << "Speed: " << j.sp << endl;
       
 	fout << "Skill_1: " << j.skill_1 << endl;
 
