@@ -21,7 +21,6 @@ void startgame_menu()
         {
         case 1:
             back_flag=newgame();
-            system("pause");
             break;
         case 2:
             //loadgame();
