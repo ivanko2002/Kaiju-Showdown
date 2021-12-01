@@ -58,6 +58,7 @@ void jprops(Player1 &j)
 			}
 			prop = "Plasma Chainsaw";
 			j.xp -= 50;
+		}
 				
 		else if (choice == 3){
 			if (j.xp < 70){
@@ -66,6 +67,7 @@ void jprops(Player1 &j)
 			}
 			prop = "WMB2x90 Missle Launcher";
 			j.xp -= 70;
+		}
 				
 		else if (choice == 4) return;
 
