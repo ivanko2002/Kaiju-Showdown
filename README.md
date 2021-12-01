@@ -21,7 +21,7 @@ Game rules:
 Features:
 
 1. Generation of random game sets or events:
-- The characters(either a Kaiju or a Jager) are randomly generated to the players.
+- The characters(either a Kaiju or a Jaeger) are randomly generated to the players.
 - The battlefield will be randomly generated.
 
 2. Data structures for storing game status:
