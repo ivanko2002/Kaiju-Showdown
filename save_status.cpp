@@ -13,8 +13,6 @@ void save_status(Player1 &j, Player2 &k)
 
 	ofstream fout;
 	fout.open(final_file);
-	fout << name << endl;
-	fout << date << endl;
 	fout << j.name << endl;
 	fout << j.hp << endl;
 	fout << j.ap << endl;
