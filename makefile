@@ -1,6 +1,8 @@
 Flag = -pedantic-errors -std=c++11
 Header = struct.h
 
+load_game.o: load_game.cpp $(Header)
+		g++ $(Flag) -c $<
 save_status.o: save_status.cpp $(Header)
 		g++ $(Flag) -c $<
 startgame_menu.o: startgame_menu.cpp $(Header)
@@ -35,7 +37,7 @@ kaiju_bag.o: kaiju_bag.cpp $(Header)
 		g++ $(Flag) -c $<
 main.o: main.cpp $(Header)
 		g++ $(Flag) -c $<
-kj: main.o startgame_menu.o newgame.o gameflow.o jaegar_status.o kaiju_status.o instruction.o jaegar_choice.o jaegar_data.o kaiju_choice.o kaiju_data.o battlefield.o jaegar_props.o kaiju_props.o save_status.o jaegar_bag.o
+kj: main.o load_game.o startgame_menu.o newgame.o gameflow.o jaegar_status.o kaiju_status.o instruction.o jaegar_choice.o jaegar_data.o kaiju_choice.o kaiju_data.o battlefield.o jaegar_props.o kaiju_props.o save_status.o jaegar_bag.o
 		g++ $(Flag) $^ -o $@
 clean:
 	rm -f *.o kj
