@@ -6,9 +6,9 @@
 
 using namespace std;
 
-void jaegar_bag(Player1 &j){
+void jaegar_bag(Player1 &j,jprop *&jhead){
 	
-	jprop* start = j.bag;
+	jprop* start = jhead;
 	jprop* now = start;
 	int i = 1;
 	cout << "Jaegar's current props: " << endl;

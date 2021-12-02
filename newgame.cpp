@@ -104,7 +104,7 @@ int newgame()
 		case 2:
 			p1.bag->jprop_name = "WMB2x90 Missle Launcher";
             p1.bag->quantity=0;
-			p1.bag->next = new jprop;
+			p1.bag->next = NULL;
 			break;
 		}
 	}
@@ -129,7 +129,7 @@ int newgame()
 		case 2:
 			p2.bag->kprop_name = "Electronic lobes";
             p2.bag->quantity=0;
-			p2.bag->next = new kprop;
+			p2.bag->next = NULL;
 			break;
 		}
 	}

@@ -26,8 +26,9 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
             cout << "4. " << p1.skill_1 << endl;
             cout << "5. " << p1.skill_2 << endl;
             cout << "6. " << p1.skill_3 << endl;
-            cout << "7. View jaegar status\n";
-            cout << "8.Save and back to main menu\n";
+            cout<<"7. Use item in inventory\n";
+            cout << "8. View jaegar status\n";
+            cout << "9.Save and back to main menu\n";
             cin >> p1choice;
             switch (p1choice)
             {
@@ -71,11 +72,14 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 }
                 break;
             case 7:
+                jaegar_bag(p1,jhead);
+                break;
+            case 8:
                 system("CLS");
                 jstatus(p1);
                 break;
-            case 8:
-                //savefile();
+            case 9:
+                save_status(p1,p2);
                 exit_flag = 1;
                 cout << "Game saved, relocating to main menu\n";
                 break;
@@ -147,7 +151,7 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 kstatus(p2);
                 break;
             case 8:
-                //savefile();
+                save_status(p1,p2);
                 exit_flag = 1;
                 cout << "Game saved, relocating to main menu\n";
                 break;

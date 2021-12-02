@@ -1,0 +1,32 @@
+eg
+235/3
+Crimson Typhoon
+900
+50
+120
+30
+160
+Jet Kick
+50
+175
+Sterno Piston
+70
+175
+Thunder Cloud Formation
+300
+800
+Scunner
+1800
+100
+120
+20
+80
+Clawhook
+25
+50
+Meathead
+60
+50
+Scunner Fury
+250
+550

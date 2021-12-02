@@ -3,10 +3,10 @@
 
 #include <iostream>
 #include "struct.h"
-
-void kaiju_bag(Player2 &k){
+ 
+void kaiju_bag(Player2 &k, kprop *&khead){
 	
-	kprop* start = k.bag;
+	kprop* start = khead;
 	kprop* now = start;
 	int n = 1;
 	cout << "Kaiju's current props: " << endl;
@@ -16,4 +16,14 @@ void kaiju_bag(Player2 &k){
 		n++;
 		now = now -> next;
 	}
+	cout<<n<<". Back\n";
+	int input=0;
+	while(input==0){
+		cin>>input;
+		switch(input){
+			case 1:
+			if 
+		}
+	}
+
 }
