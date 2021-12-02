@@ -9,13 +9,6 @@ using namespace std;
 
 void save_status(Player1 &j, Player2 &k)
 {
-
-	string name, date;
-	cout << "Enter your name: " << endl;
-	cin >> name;
-	cout << "Enter today's date (dd/mm):  " << endl;
-	cin >> date;
-
 	string final_file = "savefile.txt";
 
 	ofstream fout;
