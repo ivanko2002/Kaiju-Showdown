@@ -17,13 +17,14 @@ void startgame_menu()
         cout << "3.Back\n";
         cin>>input;
         menu_flag = 1;
+        back_flag=1;
         switch (input)
         {
         case 1:
-            back_flag=newgame();
+            newgame();
             break;
         case 2:
-            //backflag=loadgame();
+            load_game();
             break;
         case 3:
             back_flag = 1;

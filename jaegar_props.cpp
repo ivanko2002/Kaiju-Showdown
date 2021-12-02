@@ -53,7 +53,7 @@ void jprops(Player1 &j, jprop *&jhead)
 				cout << "Insufficient XP!" << endl;
 				continue;
 			}
-			prop = "I-19 Plasmacaster";
+			prop = "I-19 Freezecaster";
 			j.xp -= 30;
 			buy=1;;
 		}
@@ -87,7 +87,7 @@ void jprops(Player1 &j, jprop *&jhead)
 		else
 		{
 			cout << "Invalid input!" << endl;
-			cout << "Please input a number between 1 - 3" << endl;
+			cout << "Please input a number between 1 - 4" << endl;
 			cout << "Your input is ";
 			continue;
 		}

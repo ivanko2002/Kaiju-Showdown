@@ -38,7 +38,7 @@ void kprops(Player2 &k, kprop *&khead)
 
 		cout << "3. Electronic lobes" << endl;
 		cout << "Description: Generate a huge electronic-killing pulse" << endl;
-		cout << "Effect: Freeze Jaegar for 3 rounds" << endl;
+		cout << "Effect: Jaegar's DP lowers by 20 (until it reaches 0)" << endl;
 		cout << "XP in exchange: 90" << endl
 			 << endl;
 
@@ -83,10 +83,13 @@ void kprops(Player2 &k, kprop *&khead)
 			k.xp -= 90;
 			buy=1;
 			break;
+		case 4:
+			return;
+			break;
 
 		default:
 			cout << "Invalid input!" << endl
-				 << "Please input a number between 1 - 3" << endl;
+				 << "Please input a number between 1 - 4" << endl;
 			cout << "Your input is ";
 		}
 		while (true)

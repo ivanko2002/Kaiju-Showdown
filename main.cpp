@@ -25,7 +25,6 @@ int main()
 			{
 			case 1:
 				startgame_menu();
-				system("pause");
 				break;
 			case 2:
 				instruction();

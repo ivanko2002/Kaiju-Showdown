@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int newgame()
+void newgame()
 {
     srand((unsigned)time(0)); 
     string pj, pk;
@@ -90,7 +90,7 @@ int newgame()
 		switch (i)
 		{
 		case 0:
-			p1.bag->jprop_name = "I-19 Plasmacaster";
+			p1.bag->jprop_name = "I-19 Freezecaster";
             p1.bag->quantity=0;
 			p1.bag->next = new jprop;
 			p1.bag = p1.bag->next;
@@ -133,6 +133,5 @@ int newgame()
 			break;
 		}
 	}
-    int exit=gameflow(p1,p2,jhead,khead);
-    return exit;
+    gameflow(p1,p2,jhead,khead);
 }

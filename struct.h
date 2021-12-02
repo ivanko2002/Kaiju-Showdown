@@ -111,13 +111,13 @@ struct Player2
     int rhp;
 };
 
-void load_game(Player1 &j, Player2 &k);
+void load_game();
 void save_status(Player1 &j, Player2 &k);
 void instruction();
 void startgame_menu();
-int newgame();
+void newgame();
 int jaegar_bag(Player1 &j, Player2 &k, jprop *&jhead);
-void kaiju_bag(Player1 &j, Player2 &k, kprop *&khead);
+int kaiju_bag(Player1 &j, Player2 &k, kprop *&khead);
 void choose_jaegar(vector<j> &jaegar);
 void choose_kaiju(vector<k> &kaiju);
 void jstatus(Player1 &j);
@@ -128,4 +128,4 @@ string jchoice();
 string kchoice();
 void battlefield(int n, Player1 &j, Player2 &k);
 void instruction();
-int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead);
+void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead);

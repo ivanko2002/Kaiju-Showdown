@@ -5,10 +5,8 @@
 #include "struct.h"
 
 using namespace std;
-
 int jaegar_bag(Player1 &j, Player2 &k, jprop *&jhead)
 {
-
 	jprop *start = jhead;
 	jprop *now = start;
 	int i = 1;
@@ -65,8 +63,8 @@ int jaegar_bag(Player1 &j, Player2 &k, jprop *&jhead)
 			}
 			else
 			{
-				cout<<"None in inventory!\n";
-				input=0;
+				cout << "None in inventory!\n";
+				input = 0;
 			}
 			break;
 		case 4:
@@ -78,7 +76,8 @@ int jaegar_bag(Player1 &j, Player2 &k, jprop *&jhead)
 	{
 		return 1;
 	}
-	else{
+	else
+	{
 		return 0;
 	}
 }
