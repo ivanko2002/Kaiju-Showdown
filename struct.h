@@ -116,7 +116,7 @@ void save_status(Player1 &j, Player2 &k);
 void instruction();
 void startgame_menu();
 int newgame();
-void jaegar_bag(Player1 &j,jprop *&jhead);
+int jaegar_bag(Player1 &j,Player2 &k, jprop *&jhead);
 void kaiju_bag(Player2 &k);
 void choose_jaegar(vector<j> &jaegar);
 void choose_kaiju(vector<k> &kaiju);

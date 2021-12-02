@@ -72,7 +72,7 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 }
                 break;
             case 7:
-                jaegar_bag(p1,jhead);
+                flag=jaegar_bag(p1,p2,jhead);
                 break;
             case 8:
                 system("CLS");
@@ -210,6 +210,8 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 cout << p2.name << " has " << p2.hp << "hp remaining\n";
                 cout << p1.name << " has " << p1.xp << "xp remaining\n";
                 break;
+            default:
+                break;
             }
             if (p2.hp <= 0)
             {
@@ -262,6 +264,8 @@ int gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                     cout << p2.damage3 - p1.dp << " damage was dealt to " << p1.name << endl;
                     cout << p1.name << " has " << p1.hp << "hp remaining\n";
                     cout << p2.name << " has " << p2.xp << "xp remaining\n";
+                    break;
+                default:
                     break;
                 }
                 if (p1.hp <= 0)

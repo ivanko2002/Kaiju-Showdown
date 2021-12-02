@@ -1,32 +1,30 @@
-eg
-235/3
-Crimson Typhoon
-900
+Gipsy Danger
+1540
 50
-120
-30
-160
-Jet Kick
-50
-175
-Sterno Piston
-70
-175
-Thunder Cloud Formation
-300
-800
-Scunner
-1800
-100
-120
+140
 20
-80
-Clawhook
-25
+100
+Elbow Rocket
+20
+100
+Palm Grip Backslash
+40
+100
+Plasma Cannon
+150
+300
+Slattern
+2520
+75
+120
+10
 50
-Meathead
-60
+Hammer Jaw
+15
 50
-Scunner Fury
+Spinejackal
+35
+50
+Slattern Strike
+150
 250
-550
