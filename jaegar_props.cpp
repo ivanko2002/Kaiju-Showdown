@@ -22,9 +22,9 @@ void jprops(Player1 &j, jprop *&jhead)
 		cout << "Weapons available: " << endl
 			 << endl;
 
-		cout << "1. I-19 Plasmacaster " << endl;
-		cout << "Description: A particle dispersal cannon that fired a beam of charged plasma" << endl;
-		cout << "Effect: Kaiju's HP -100" << endl;
+		cout << "1. I-19 Freezecaster " << endl;
+		cout << "Description: A particle dispersal cannon that fires a beam of frost" << endl;
+		cout << "Effect: Kaiju's SP -30" << endl;
 		cout << "XP in exchange: 30" << endl
 			 << endl;
 
