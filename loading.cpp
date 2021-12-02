@@ -1,7 +1,7 @@
 // Function for loading last game
 // Take string input from user
 // Retrieve data from txt file and save those data into variables to be used in the game
-//
+
 #include <iostream>
 #include <string>
 #include "struct.h"
