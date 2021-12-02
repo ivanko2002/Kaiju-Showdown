@@ -24,7 +24,7 @@ void save_status(Player1 &j, Player2 &k)
 	fout << j.damage1 << endl;
 	fout << j.skill_2 << endl;
 	fout << j.xp2 << endl;
-	fout << j.damage1 << endl;
+	fout << j.damage2 << endl;
 	fout << j.skill_3 << endl;
 	fout << j.xp3 << endl;
 	fout << j.damage3 << endl;
@@ -39,7 +39,7 @@ void save_status(Player1 &j, Player2 &k)
 	fout << k.damage1 << endl;
 	fout << k.skill_2 << endl;
 	fout << k.xp2 << endl;
-	fout << k.damage1 << endl;
+	fout << k.damage2 << endl;
 	fout << k.skill_3 << endl;
 	fout << k.xp3 << endl;
 	fout << k.damage3 << endl;
