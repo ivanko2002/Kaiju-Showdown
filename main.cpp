@@ -1,3 +1,6 @@
+//Main menu for the game
+//Displays the options the player can take
+
 #include <iostream>
 #include "struct.h"
 using namespace std;

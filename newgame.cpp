@@ -1,5 +1,5 @@
-//This function reads players choices for characters
-
+//The function creates a new game
+//Lets players choose their own character and generates a battlefield
 #include <iostream>
 #include <cstdlib> 
 #include <ctime>

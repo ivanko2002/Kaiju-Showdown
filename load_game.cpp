@@ -21,6 +21,7 @@ void load_game()
 	if (fin.fail())
 	{
 		cout << "No record." << endl;
+		system("pause");
 		return;
 	}
 
@@ -111,9 +112,5 @@ void load_game()
 	}
 	jstatus(j);
 	kstatus(k);
-	cout << j.skill_1 << endl;
-	cout << j.skill_2 << endl;
-	cout << j.skill_3 << endl;
-	system("pause");
 	gameflow(j, k, jhead, khead);
 }

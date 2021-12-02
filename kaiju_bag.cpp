@@ -1,5 +1,5 @@
 // Function that print kaiju's props
-// Take player data as input
+// Take both players' data and both player's head as input
 
 #include <iostream>
 #include "struct.h"

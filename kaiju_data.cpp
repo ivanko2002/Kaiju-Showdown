@@ -5,7 +5,8 @@
 
 using namespace std;
 
-void choose_kaiju(vector<k> &kaiju){
+void choose_kaiju(vector<k> &kaiju)
+{
 
 	k S;
 	S.name = "Slattern";
@@ -41,10 +42,10 @@ void choose_kaiju(vector<k> &kaiju){
 	O.damage2 = 125;
 	O.skill_3 = "Otachi Strike";
 	O.xp3 = 180;
-	O.damage3 = 300 ;
+	O.damage3 = 300;
 	O.rxp = 10;
 	O.rhp = 3;
-	
+
 	k Sc;
 	Sc.name = "Scunner";
 	Sc.hp = 1800;
@@ -102,11 +103,9 @@ void choose_kaiju(vector<k> &kaiju){
 	A.rxp = 1;
 	A.rhp = 5;
 
-
 	kaiju.push_back(S);
 	kaiju.push_back(O);
 	kaiju.push_back(Sc);
 	kaiju.push_back(I);
 	kaiju.push_back(A);
 }
-

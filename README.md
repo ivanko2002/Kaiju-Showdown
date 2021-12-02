@@ -21,7 +21,6 @@ Game rules:
 Features:
 
 1. Generation of random game sets or events:
-- The characters(either a Kaiju or a Jaeger) are randomly generated to the players.
 - The battlefield will be randomly generated.
 - If the player choose heal function, his hp will randomly recover
 
@@ -31,14 +30,13 @@ Features:
 - Vector: list of props that the character currently has.
 
 3. Dynamic memory management:
-- After each round of battle, players can exchange props and store into the vector.
-- When the props are used during the showdown, the vector will pop them out. 
-- The players can check the props they currently have by returning the vector.
+- After each round of battle, players can exchange props and store into the linked list.
+- The players can check the props they currently have by returning the linked list.
 
 4. File input/output 
 - Load and save game status.
-- The players can choose to quit the battle at any time. 
-- At the beginning of the game, the user type the filename they set last time to load the data
+- The players can choose to quit the battle at any time.
+- Data of the last round will be saved. 
 
 5. Program codes in multiple files:
 - The functions are separated into several files

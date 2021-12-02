@@ -1,4 +1,5 @@
 //Function for player to exchange props by xp
+//Function takes player data and player's bag head
 //Take number as input and return the corresponding prop
 
 #include <iostream>
@@ -59,7 +60,7 @@ void kprops(Player2 &k, kprop *&khead)
 			}
 			kprop = "Blue Acid";
 			k.xp -= 30;
-			buy=1;
+			buy = 1;
 			break;
 
 		case 2:
@@ -70,7 +71,7 @@ void kprops(Player2 &k, kprop *&khead)
 			}
 			kprop = "Deadly spiked tails";
 			k.xp -= 70;
-			buy=1;
+			buy = 1;
 			break;
 
 		case 3:
@@ -81,7 +82,7 @@ void kprops(Player2 &k, kprop *&khead)
 			}
 			kprop = "Electronic lobes";
 			k.xp -= 90;
-			buy=1;
+			buy = 1;
 			break;
 		case 4:
 			return;

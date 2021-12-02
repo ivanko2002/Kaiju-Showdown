@@ -11,26 +11,32 @@ string jchoice()
 	int n;
 	while (true)
 	{
-		cout << "Player 1 choose a Jaegar" << endl << endl;
-		cout << "1. Gipsy Danger " << endl << endl;
-		cout << "Characteristics: Highest health points" << endl << endl;
-		
-		cout << "2. Striker Eureka" << endl << endl;
-		cout << "Characteristic: Highest experience points" << endl << endl;
+		cout << "Player 1 choose a Jaegar" << endl
+			 << endl;
+		cout << "1. Gipsy Danger " << endl;
+		cout << "Characteristics: Highest health points" << endl
+			 << endl;
 
-		cout << "3. Crimson Typhoon" << endl << endl;
-		cout << "Characteristic: Highest damage of skills" << endl << endl;
+		cout << "2. Striker Eureka" << endl;
+		cout << "Characteristic: Highest experience points" << endl
+			 << endl;
 
-		cout << "4. Mammoth Apostle" << endl << endl;
-		cout << "Characteristic: Highest defense point" << endl << endl;
+		cout << "3. Crimson Typhoon" << endl;
+		cout << "Characteristic: Highest damage of skills" << endl
+			 << endl;
 
-		cout << "5. Hydra Hyperion" << endl << endl;
-		cout << "Characteristic: Highest speed" << endl << endl;
+		cout << "4. Mammoth Apostle" << endl;
+		cout << "Characteristic: Highest defense point" << endl
+			 << endl;
+
+		cout << "5. Hydra Hyperion" << endl;
+		cout << "Characteristic: Highest speed" << endl
+			 << endl;
 
 		cout << endl;
 
 		cout << "Please input a number between 1 to 5: ";
-		
+
 		cin >> n;
 
 		switch (n)

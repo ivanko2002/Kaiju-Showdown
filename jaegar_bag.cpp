@@ -1,5 +1,5 @@
-// Function that print jaegar's props
-// Take player data as input
+// Function that print jaegar's available props and prints effect if they choose them
+// Take both players' data and the player's bag head as input
 
 #include <iostream>
 #include "struct.h"

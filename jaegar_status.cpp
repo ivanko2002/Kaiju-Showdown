@@ -1,6 +1,5 @@
 // Function that returns the status of jaegar
-// Take input from player's data 
-
+// Take input from player's data
 
 #include <iostream>
 #include "struct.h"
@@ -16,8 +15,4 @@ void jstatus(Player1 &j)
     cout << "Experience Point: " << j.xp << endl;
     cout << "Defense Point: " << j.dp << endl;
     cout << "Speed: " << j.sp << endl;
-
 }
-
-
-

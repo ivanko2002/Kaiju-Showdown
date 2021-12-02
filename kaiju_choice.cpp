@@ -13,22 +13,27 @@ string kchoice()
 	while (true)
 	{
 
-		cout << "Player 2 choose a kaiju" << endl << endl;
-		cout << "1. Slattern" << endl << endl;
+		cout << "Player 2 choose a kaiju" << endl
+			 << endl;
+		cout << "1. Slattern" << endl;
 		cout << "Characteristics: Highest health points" << endl;
-		
-		cout << "2. Otachi" << endl << endl;
-		cout << "Characteristic: Highest speed" << endl << endl;
-	
-		cout << "3. Scunner" << endl << endl;
-		cout << "Characteristic: Highest damage of skills" << endl << endl;
-	
-		cout << "4. Insurrector" << endl << endl;
-		cout << "Characteristic: Highest attack power" << endl << endl;
-	
-		cout << "5. Atticon" << endl << endl;
-		cout << "Characteristic: Highest defense point" << endl << endl;
-		
+
+		cout << "2. Otachi" << endl;
+		cout << "Characteristic: Highest speed" << endl
+			 << endl;
+
+		cout << "3. Scunner" << endl;
+		cout << "Characteristic: Highest damage of skills" << endl
+			 << endl;
+
+		cout << "4. Insurrector" << endl;
+		cout << "Characteristic: Highest attack power" << endl
+			 << endl;
+
+		cout << "5. Atticon" << endl;
+		cout << "Characteristic: Highest defense point" << endl
+			 << endl;
+
 		cout << endl;
 
 		cout << "Please input a number between 1 to 5: ";

@@ -1,4 +1,5 @@
 //Function for player to exchange props by xp
+//Function takes player data and player's bag head
 //Take number as input and return the corresponding props
 
 #include <iostream>
@@ -8,13 +9,13 @@ using namespace std;
 
 void jprops(Player1 &j, jprop *&jhead)
 {
-	
+
 	jprop *start = jhead;
 	jprop *now = start;
 	int choice;
 	string prop;
-	int buy=0;
-	while (buy==0)
+	int buy = 0;
+	while (buy == 0)
 	{
 		cout << "Remaining XP: " << j.xp << endl
 			 << endl;
@@ -55,7 +56,8 @@ void jprops(Player1 &j, jprop *&jhead)
 			}
 			prop = "I-19 Freezecaster";
 			j.xp -= 30;
-			buy=1;;
+			buy = 1;
+			;
 		}
 		else if (choice == 2)
 		{
@@ -66,7 +68,7 @@ void jprops(Player1 &j, jprop *&jhead)
 			}
 			prop = "Plasma Chainsaw";
 			j.xp -= 50;
-			buy=1;
+			buy = 1;
 		}
 
 		else if (choice == 3)
@@ -78,7 +80,7 @@ void jprops(Player1 &j, jprop *&jhead)
 			}
 			prop = "WMB2x90 Missle Launcher";
 			j.xp -= 70;
-			buy=1;
+			buy = 1;
 		}
 
 		else if (choice == 4)

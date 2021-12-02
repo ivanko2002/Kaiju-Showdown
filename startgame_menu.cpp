@@ -15,9 +15,9 @@ void startgame_menu()
         cout << "1.New game\n";
         cout << "2.Load game\n";
         cout << "3.Back\n";
-        cin>>input;
+        cin >> input;
         menu_flag = 1;
-        back_flag=1;
+        back_flag = 1;
         switch (input)
         {
         case 1:

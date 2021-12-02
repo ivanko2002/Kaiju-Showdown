@@ -1,5 +1,5 @@
 // Save game status for the two players
-// Take date input
+// Take the 2 player's data as input
 
 #include <iostream>
 #include <fstream>

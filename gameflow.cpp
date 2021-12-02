@@ -1,5 +1,5 @@
 //Function to control gameflow
-//Take the data of both players
+//Take the data of both players and the head of both player's bag
 
 #include <iostream>
 #include <string>
