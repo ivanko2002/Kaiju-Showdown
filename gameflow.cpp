@@ -14,7 +14,6 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
     int exit_flag = 0;
     while (exit_flag == 0)
     {
-        system("CLS");
         int flag = 0;
         int p1choice = 0, p2choice = 0;
         while (exit_flag == 0 and flag == 0)
@@ -75,20 +74,17 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 flag = jaegar_bag(p1, p2, jhead);
                 break;
             case 8:
-                system("CLS");
                 jstatus(p1);
                 break;
             case 9:
                 save_status(p1, p2);
                 exit_flag = 1;
                 cout << "Game saved, relocating to main menu\n";
-                system("pause");
                 break;
             default:
                 cout << "Incorrect input, please try again\n";
             }
         }
-        system("CLS");
         flag = 0;
         while (exit_flag == 0 and flag == 0)
         {
@@ -148,20 +144,17 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                 flag = kaiju_bag(p1, p2, khead);
                 break;
             case 8:
-                system("CLS");
                 kstatus(p2);
                 break;
             case 9:
                 save_status(p1, p2);
                 exit_flag = 1;
                 cout << "Game saved, relocating to main menu\n";
-                system("pause");
                 break;
             default:
                 cout << "Incorrect input, please try again\n";
             }
         }
-        system("CLS");
         if (exit_flag == 0)
         {
             int temp;
@@ -273,10 +266,6 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                         cout << "Player 2 wins\n";
                         exit_flag = 1;
                     }
-                    else
-                    {
-                        system("pause");
-                    }
                 }
             }
             else
@@ -383,15 +372,9 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                         cout << "Player 1 wins\n";
                         exit_flag = 1;
                     }
-                    else
-                    {
-                        system("pause");
-                    }
                 }
             }
-            system("CLS");
             jprops(p1, jhead);
-            system("CLS");
             kprops(p2, khead);
         }
     }
