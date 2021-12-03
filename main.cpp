@@ -6,15 +6,12 @@
 using namespace std;
 int main()
 {
-	system("CLS");
 	cout << "Welcome to Kaiju Showdown\n";
-	system("PAUSE");
 	int exit_flag = 0;
 	while (exit_flag == 0)
 	{
 
 		int input, menu_flag = 0;
-		system("CLS");
 		while (menu_flag == 0)
 		{
 			cout << "MENU" << endl;
@@ -31,7 +28,6 @@ int main()
 				break;
 			case 2:
 				instruction();
-				system("pause");
 				break;
 			case 3:
 				cout << "Jaegar data:" << endl
@@ -158,8 +154,6 @@ int main()
 					 << endl;
 				cout << "Skill 3 = Itak\nxp = 225\tdamage = 400" << endl
 					 << endl;
-
-				system("pause");
 				break;
 			case 4:
 				cout << "Game exited\n";
