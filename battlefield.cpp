@@ -1,4 +1,5 @@
-//Function that generate a random battlefield
+//Function that output a random battlefield
+//A random number 1-3 and players' data will be inputted
 
 #include <iostream>
 #include "struct.h"
