@@ -21,7 +21,6 @@ void load_game()
 	if (fin.fail())
 	{
 		cout << "No record." << endl;
-		system("pause");
 		return;
 	}
 
