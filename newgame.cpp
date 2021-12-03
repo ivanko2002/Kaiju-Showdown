@@ -15,7 +15,6 @@ void newgame()
     Player2 p2;
     vector<j> jaegars;
     vector<k> kaijus;
-    system("CLS");
     pj = jchoice();
     choose_jaegar(jaegars);
     for (int i = 0; i < 5; i++)
@@ -46,8 +45,7 @@ void newgame()
         }
     }
     cout << p1.name << " was chosen." << endl;
-    system("pause");
-    system("CLS");
+
     pk = kchoice();
     choose_kaiju(kaijus);
     for (int i = 0; i < 5; i++)
@@ -79,10 +77,9 @@ void newgame()
         }
     }
     cout << p2.name << " was chosen." << endl;
-    system("pause");
-    system("CLS");
+
     battlefield((rand()%3)+1,p1,p2);
-    system("pause");
+
     jprop *jhead =NULL;
 	jhead=p1.bag;
 	for (int i = 0; i < 3; i++)
