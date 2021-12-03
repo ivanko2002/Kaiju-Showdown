@@ -32,7 +32,7 @@ Features:
 3. Dynamic memory management:
 - After each round of battle, players can exchange props and store into the linked list.
 - The players can check the props they currently have by returning the linked list.
-- To encourage the players to continue the game, props will not be saved
+- To encourage the players to continue the game, props will not be saved if they quit the game
 
 4. File input/output 
 - Load and save game status.
