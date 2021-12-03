@@ -158,6 +158,7 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
         if (exit_flag == 0)
         {
             int temp;
+            int win = 0;
             if (p1.sp > p2.sp)
             {
                 switch (p1choice)
@@ -211,6 +212,7 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                     cout << p2.name << " has been defeated\n";
                     cout << "Player 1 wins\n";
                     exit_flag = 1;
+                    win = 1;
                 }
                 else
                 {
@@ -265,6 +267,7 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                         cout << p1.name << " has been defeated\n";
                         cout << "Player 2 wins\n";
                         exit_flag = 1;
+                        win = 1;
                     }
                 }
             }
@@ -319,6 +322,7 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                     cout << p1.name << " has been defeated\n";
                     cout << "Player 2 wins\n";
                     exit_flag = 1;
+                    win = 1;
                 }
                 else
                 {
@@ -371,11 +375,15 @@ void gameflow(Player1 &p1, Player2 &p2, jprop *&jhead, kprop *&khead)
                         cout << p2.name << " has been defeated\n";
                         cout << "Player 1 wins\n";
                         exit_flag = 1;
+                        win = 1;
                     }
                 }
             }
-            jprops(p1, jhead);
-            kprops(p2, khead);
+            if (win == 0)
+            {
+                jprops(p1, jhead);
+                kprops(p2, khead);
+            }
         }
     }
 }
