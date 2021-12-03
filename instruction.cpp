@@ -7,7 +7,6 @@ using namespace std;
 
 void instruction()
 {
-    system("CLS");
 
     cout << "Welcome to Kaiju-Showdown !" << endl
          << endl;
