@@ -1,0 +1,30 @@
+Gipsy Danger
+Elbow Rocket
+Palm Grip Backslash
+Plasma Cannon
+Slattern
+Hammer Jaw
+Spinejackal
+Slattern Strike
+1540
+50
+140
+20
+100
+20
+100
+40
+150
+150
+300
+2520
+75
+120
+10
+50
+15
+50
+35
+100
+150
+250
